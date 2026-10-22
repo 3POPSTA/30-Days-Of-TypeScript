@@ -12,6 +12,7 @@
   [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-purple.svg?style=for-the-badge)](https://github.com)
 
   <br />
+  
 
   <p><strong>Inspired by Asabeneh's legendary <a href="https://github.com/Asabeneh/30-Days-Of-JavaScript">30 Days of JavaScript</a></strong></p>
 </div>
