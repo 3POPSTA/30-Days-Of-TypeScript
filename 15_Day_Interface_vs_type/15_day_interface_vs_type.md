@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 15 - Interface vs Type & Declaration Merging
 
 <div align="center">
-  <p>[<< Day 14](../14_Day_Interfaces/14_day_interfaces.md) | [30 Days of TypeScript](../readMe.md) | [Day 16 >>](../16_Day_Classes/16_day_classes.md)</p>
+  <p><a href="../14_Day_Interfaces/14_day_interfaces.md">&lt;&lt; Day 14</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../16_Day_Classes/16_day_classes.md">Day 16 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -128,5 +128,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 15** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 14](../14_Day_Interfaces/14_day_interfaces.md) | [30 Days of TypeScript](../readMe.md) | [Day 16 >>](../16_Day_Classes/16_day_classes.md)</p>
+  <p><a href="../14_Day_Interfaces/14_day_interfaces.md">&lt;&lt; Day 14</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../16_Day_Classes/16_day_classes.md">Day 16 &gt;&gt;</a></p>
 </div>

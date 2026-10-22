@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 19 - Generics: Functions, Interfaces & Types
 
 <div align="center">
-  <p>[<< Day 18](../18_Day_Enums/18_day_enums.md) | [30 Days of TypeScript](../readMe.md) | [Day 20 >>](../20_Day_Generics_constraints/20_day_generics_constraints.md)</p>
+  <p><a href="../18_Day_Enums/18_day_enums.md">&lt;&lt; Day 18</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../20_Day_Generics_constraints/20_day_generics_constraints.md">Day 20 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -127,5 +127,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 19** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 18](../18_Day_Enums/18_day_enums.md) | [30 Days of TypeScript](../readMe.md) | [Day 20 >>](../20_Day_Generics_constraints/20_day_generics_constraints.md)</p>
+  <p><a href="../18_Day_Enums/18_day_enums.md">&lt;&lt; Day 18</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../20_Day_Generics_constraints/20_day_generics_constraints.md">Day 20 &gt;&gt;</a></p>
 </div>

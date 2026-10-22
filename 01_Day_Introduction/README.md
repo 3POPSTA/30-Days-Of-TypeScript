@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 01 - Introduction & Getting Started
 
 <div align="center">
-  <p>[Home](../readMe.md) | [30 Days of TypeScript](../readMe.md) | [Day 2 >>](../02_Day_Primitive_types/02_day_primitive_types.md)</p>
+  <p><a href="../README.md">&lt;&lt; Home</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../02_Day_Primitive_types/02_day_primitive_types.md">Day 2 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -139,5 +139,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 01** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[Home](../readMe.md) | [30 Days of TypeScript](../readMe.md) | [Day 2 >>](../02_Day_Primitive_types/02_day_primitive_types.md)</p>
+  <p><a href="../README.md">&lt;&lt; Home</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../02_Day_Primitive_types/02_day_primitive_types.md">Day 2 &gt;&gt;</a></p>
 </div>

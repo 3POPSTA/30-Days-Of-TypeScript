@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 24 - Template Literal Types & Event Strings
 
 <div align="center">
-  <p>[<< Day 23](../23_Day_Mapped_types/23_day_mapped_types.md) | [30 Days of TypeScript](../readMe.md) | [Day 25 >>](../25_Day_Conditional_types/25_day_conditional_types.md)</p>
+  <p><a href="../23_Day_Mapped_types/23_day_mapped_types.md">&lt;&lt; Day 23</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../25_Day_Conditional_types/25_day_conditional_types.md">Day 25 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -123,5 +123,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 24** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 23](../23_Day_Mapped_types/23_day_mapped_types.md) | [30 Days of TypeScript](../readMe.md) | [Day 25 >>](../25_Day_Conditional_types/25_day_conditional_types.md)</p>
+  <p><a href="../23_Day_Mapped_types/23_day_mapped_types.md">&lt;&lt; Day 23</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../25_Day_Conditional_types/25_day_conditional_types.md">Day 25 &gt;&gt;</a></p>
 </div>

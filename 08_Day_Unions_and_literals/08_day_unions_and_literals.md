@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 08 - Union Types & Literal Types
 
 <div align="center">
-  <p>[<< Day 7](../07_Day_Type_aliases/07_day_type_aliases.md) | [30 Days of TypeScript](../readMe.md) | [Day 9 >>](../09_Day_Type_narrowing/09_day_type_narrowing.md)</p>
+  <p><a href="../07_Day_Type_aliases/07_day_type_aliases.md">&lt;&lt; Day 7</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../09_Day_Type_narrowing/09_day_type_narrowing.md">Day 9 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -123,5 +123,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 08** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 7](../07_Day_Type_aliases/07_day_type_aliases.md) | [30 Days of TypeScript](../readMe.md) | [Day 9 >>](../09_Day_Type_narrowing/09_day_type_narrowing.md)</p>
+  <p><a href="../07_Day_Type_aliases/07_day_type_aliases.md">&lt;&lt; Day 7</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../09_Day_Type_narrowing/09_day_type_narrowing.md">Day 9 &gt;&gt;</a></p>
 </div>

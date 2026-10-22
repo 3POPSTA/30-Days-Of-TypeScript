@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 04 - Arrays, Readonly Arrays & Matrices
 
 <div align="center">
-  <p>[<< Day 3](../03_Day_Special_types/03_day_special_types.md) | [30 Days of TypeScript](../readMe.md) | [Day 5 >>](../05_Day_Tuples/05_day_tuples.md)</p>
+  <p><a href="../03_Day_Special_types/03_day_special_types.md">&lt;&lt; Day 3</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../05_Day_Tuples/05_day_tuples.md">Day 5 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -129,5 +129,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 04** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 3](../03_Day_Special_types/03_day_special_types.md) | [30 Days of TypeScript](../readMe.md) | [Day 5 >>](../05_Day_Tuples/05_day_tuples.md)</p>
+  <p><a href="../03_Day_Special_types/03_day_special_types.md">&lt;&lt; Day 3</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../05_Day_Tuples/05_day_tuples.md">Day 5 &gt;&gt;</a></p>
 </div>

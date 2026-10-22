@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 07 - Type Aliases & Intersection Types
 
 <div align="center">
-  <p>[<< Day 6](../06_Day_Objects/06_day_objects.md) | [30 Days of TypeScript](../readMe.md) | [Day 8 >>](../08_Day_Unions_and_literals/08_day_unions_and_literals.md)</p>
+  <p><a href="../06_Day_Objects/06_day_objects.md">&lt;&lt; Day 6</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../08_Day_Unions_and_literals/08_day_unions_and_literals.md">Day 8 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -124,5 +124,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 07** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 6](../06_Day_Objects/06_day_objects.md) | [30 Days of TypeScript](../readMe.md) | [Day 8 >>](../08_Day_Unions_and_literals/08_day_unions_and_literals.md)</p>
+  <p><a href="../06_Day_Objects/06_day_objects.md">&lt;&lt; Day 6</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../08_Day_Unions_and_literals/08_day_unions_and_literals.md">Day 8 &gt;&gt;</a></p>
 </div>

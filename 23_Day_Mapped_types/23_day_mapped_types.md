@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 23 - Mapped Types & Key Remapping
 
 <div align="center">
-  <p>[<< Day 22](../22_Day_Keyof_and_indexed_access/22_day_keyof_and_indexed_access.md) | [30 Days of TypeScript](../readMe.md) | [Day 24 >>](../24_Day_Template_literal_types/24_day_template_literal_types.md)</p>
+  <p><a href="../22_Day_Keyof_and_indexed_access/22_day_keyof_and_indexed_access.md">&lt;&lt; Day 22</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../24_Day_Template_literal_types/24_day_template_literal_types.md">Day 24 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -129,5 +129,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 23** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 22](../22_Day_Keyof_and_indexed_access/22_day_keyof_and_indexed_access.md) | [30 Days of TypeScript](../readMe.md) | [Day 24 >>](../24_Day_Template_literal_types/24_day_template_literal_types.md)</p>
+  <p><a href="../22_Day_Keyof_and_indexed_access/22_day_keyof_and_indexed_access.md">&lt;&lt; Day 22</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../24_Day_Template_literal_types/24_day_template_literal_types.md">Day 24 &gt;&gt;</a></p>
 </div>

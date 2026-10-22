@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 26 - The infer Keyword & Type Extraction
 
 <div align="center">
-  <p>[<< Day 25](../25_Day_Conditional_types/25_day_conditional_types.md) | [30 Days of TypeScript](../readMe.md) | [Day 27 >>](../27_Day_Utility_types_part_1/27_day_utility_types_part_1.md)</p>
+  <p><a href="../25_Day_Conditional_types/25_day_conditional_types.md">&lt;&lt; Day 25</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../27_Day_Utility_types_part_1/27_day_utility_types_part_1.md">Day 27 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -118,5 +118,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 26** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 25](../25_Day_Conditional_types/25_day_conditional_types.md) | [30 Days of TypeScript](../readMe.md) | [Day 27 >>](../27_Day_Utility_types_part_1/27_day_utility_types_part_1.md)</p>
+  <p><a href="../25_Day_Conditional_types/25_day_conditional_types.md">&lt;&lt; Day 25</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../27_Day_Utility_types_part_1/27_day_utility_types_part_1.md">Day 27 &gt;&gt;</a></p>
 </div>

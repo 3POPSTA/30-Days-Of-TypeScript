@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 20 - Generics Constraints & keyof Operator
 
 <div align="center">
-  <p>[<< Day 19](../19_Day_Generics_basics/19_day_generics_basics.md) | [30 Days of TypeScript](../readMe.md) | [Day 21 >>](../21_Day_Generic_classes/21_day_generic_classes.md)</p>
+  <p><a href="../19_Day_Generics_basics/19_day_generics_basics.md">&lt;&lt; Day 19</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../21_Day_Generic_classes/21_day_generic_classes.md">Day 21 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -121,5 +121,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 20** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 19](../19_Day_Generics_basics/19_day_generics_basics.md) | [30 Days of TypeScript](../readMe.md) | [Day 21 >>](../21_Day_Generic_classes/21_day_generic_classes.md)</p>
+  <p><a href="../19_Day_Generics_basics/19_day_generics_basics.md">&lt;&lt; Day 19</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../21_Day_Generic_classes/21_day_generic_classes.md">Day 21 &gt;&gt;</a></p>
 </div>

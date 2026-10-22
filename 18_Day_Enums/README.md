@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 18 - Enums & Object Literals as const
 
 <div align="center">
-  <p>[<< Day 17](../17_Day_Abstract_classes/17_day_abstract_classes.md) | [30 Days of TypeScript](../readMe.md) | [Day 19 >>](../19_Day_Generics_basics/19_day_generics_basics.md)</p>
+  <p><a href="../17_Day_Abstract_classes/17_day_abstract_classes.md">&lt;&lt; Day 17</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../19_Day_Generics_basics/19_day_generics_basics.md">Day 19 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -125,5 +125,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 18** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 17](../17_Day_Abstract_classes/17_day_abstract_classes.md) | [30 Days of TypeScript](../readMe.md) | [Day 19 >>](../19_Day_Generics_basics/19_day_generics_basics.md)</p>
+  <p><a href="../17_Day_Abstract_classes/17_day_abstract_classes.md">&lt;&lt; Day 17</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../19_Day_Generics_basics/19_day_generics_basics.md">Day 19 &gt;&gt;</a></p>
 </div>

@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 28 - Utility Types Masterclass (Part 2)
 
 <div align="center">
-  <p>[<< Day 27](../27_Day_Utility_types_part_1/27_day_utility_types_part_1.md) | [30 Days of TypeScript](../readMe.md) | [Day 29 >>](../29_Day_Async_and_error_handling/29_day_async_and_error_handling.md)</p>
+  <p><a href="../27_Day_Utility_types_part_1/27_day_utility_types_part_1.md">&lt;&lt; Day 27</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../29_Day_Async_and_error_handling/29_day_async_and_error_handling.md">Day 29 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -123,5 +123,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 28** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 27](../27_Day_Utility_types_part_1/27_day_utility_types_part_1.md) | [30 Days of TypeScript](../readMe.md) | [Day 29 >>](../29_Day_Async_and_error_handling/29_day_async_and_error_handling.md)</p>
+  <p><a href="../27_Day_Utility_types_part_1/27_day_utility_types_part_1.md">&lt;&lt; Day 27</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../29_Day_Async_and_error_handling/29_day_async_and_error_handling.md">Day 29 &gt;&gt;</a></p>
 </div>

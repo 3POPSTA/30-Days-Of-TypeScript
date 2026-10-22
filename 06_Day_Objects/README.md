@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 06 - Object Types & Property Modifiers
 
 <div align="center">
-  <p>[<< Day 5](../05_Day_Tuples/05_day_tuples.md) | [30 Days of TypeScript](../readMe.md) | [Day 7 >>](../07_Day_Type_aliases/07_day_type_aliases.md)</p>
+  <p><a href="../05_Day_Tuples/05_day_tuples.md">&lt;&lt; Day 5</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../07_Day_Type_aliases/07_day_type_aliases.md">Day 7 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -137,5 +137,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 06** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 5](../05_Day_Tuples/05_day_tuples.md) | [30 Days of TypeScript](../readMe.md) | [Day 7 >>](../07_Day_Type_aliases/07_day_type_aliases.md)</p>
+  <p><a href="../05_Day_Tuples/05_day_tuples.md">&lt;&lt; Day 5</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../07_Day_Type_aliases/07_day_type_aliases.md">Day 7 &gt;&gt;</a></p>
 </div>

@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 11 - Discriminated Unions & Pattern Matching
 
 <div align="center">
-  <p>[<< Day 10](../10_Day_Type_predicates/10_day_type_predicates.md) | [30 Days of TypeScript](../readMe.md) | [Day 12 >>](../12_Day_Functions/12_day_functions.md)</p>
+  <p><a href="../10_Day_Type_predicates/10_day_type_predicates.md">&lt;&lt; Day 10</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../12_Day_Functions/12_day_functions.md">Day 12 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -126,5 +126,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 11** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 10](../10_Day_Type_predicates/10_day_type_predicates.md) | [30 Days of TypeScript](../readMe.md) | [Day 12 >>](../12_Day_Functions/12_day_functions.md)</p>
+  <p><a href="../10_Day_Type_predicates/10_day_type_predicates.md">&lt;&lt; Day 10</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../12_Day_Functions/12_day_functions.md">Day 12 &gt;&gt;</a></p>
 </div>

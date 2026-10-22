@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 17 - Abstract Classes, override & Polymorphism
 
 <div align="center">
-  <p>[<< Day 16](../16_Day_Classes/16_day_classes.md) | [30 Days of TypeScript](../readMe.md) | [Day 18 >>](../18_Day_Enums/18_day_enums.md)</p>
+  <p><a href="../16_Day_Classes/16_day_classes.md">&lt;&lt; Day 16</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../18_Day_Enums/18_day_enums.md">Day 18 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -128,5 +128,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 17** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 16](../16_Day_Classes/16_day_classes.md) | [30 Days of TypeScript](../readMe.md) | [Day 18 >>](../18_Day_Enums/18_day_enums.md)</p>
+  <p><a href="../16_Day_Classes/16_day_classes.md">&lt;&lt; Day 16</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../18_Day_Enums/18_day_enums.md">Day 18 &gt;&gt;</a></p>
 </div>

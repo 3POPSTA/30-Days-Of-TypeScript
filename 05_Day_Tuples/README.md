@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 05 - Tuples, Labeled Tuples & as const
 
 <div align="center">
-  <p>[<< Day 4](../04_Day_Arrays/04_day_arrays.md) | [30 Days of TypeScript](../readMe.md) | [Day 6 >>](../06_Day_Objects/06_day_objects.md)</p>
+  <p><a href="../04_Day_Arrays/04_day_arrays.md">&lt;&lt; Day 4</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../06_Day_Objects/06_day_objects.md">Day 6 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -128,5 +128,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 05** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 4](../04_Day_Arrays/04_day_arrays.md) | [30 Days of TypeScript](../readMe.md) | [Day 6 >>](../06_Day_Objects/06_day_objects.md)</p>
+  <p><a href="../04_Day_Arrays/04_day_arrays.md">&lt;&lt; Day 4</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../06_Day_Objects/06_day_objects.md">Day 6 &gt;&gt;</a></p>
 </div>

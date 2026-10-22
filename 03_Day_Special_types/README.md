@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 03 - Special Types: any, unknown, never, void
 
 <div align="center">
-  <p>[<< Day 2](../02_Day_Primitive_types/02_day_primitive_types.md) | [30 Days of TypeScript](../readMe.md) | [Day 4 >>](../04_Day_Arrays/04_day_arrays.md)</p>
+  <p><a href="../02_Day_Primitive_types/02_day_primitive_types.md">&lt;&lt; Day 2</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../04_Day_Arrays/04_day_arrays.md">Day 4 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -135,5 +135,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 03** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 2](../02_Day_Primitive_types/02_day_primitive_types.md) | [30 Days of TypeScript](../readMe.md) | [Day 4 >>](../04_Day_Arrays/04_day_arrays.md)</p>
+  <p><a href="../02_Day_Primitive_types/02_day_primitive_types.md">&lt;&lt; Day 2</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../04_Day_Arrays/04_day_arrays.md">Day 4 &gt;&gt;</a></p>
 </div>

@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 29 - Async, Promises, and Robust Error Handling
 
 <div align="center">
-  <p>[<< Day 28](../28_Day_Utility_types_part_2/28_day_utility_types_part_2.md) | [30 Days of TypeScript](../readMe.md) | [Day 30 >>](../30_Day_Final_capstone_project/30_day_final_capstone_project.md)</p>
+  <p><a href="../28_Day_Utility_types_part_2/28_day_utility_types_part_2.md">&lt;&lt; Day 28</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../30_Day_Final_capstone_project/30_day_final_capstone_project.md">Day 30 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -129,5 +129,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 29** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 28](../28_Day_Utility_types_part_2/28_day_utility_types_part_2.md) | [30 Days of TypeScript](../readMe.md) | [Day 30 >>](../30_Day_Final_capstone_project/30_day_final_capstone_project.md)</p>
+  <p><a href="../28_Day_Utility_types_part_2/28_day_utility_types_part_2.md">&lt;&lt; Day 28</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../30_Day_Final_capstone_project/30_day_final_capstone_project.md">Day 30 &gt;&gt;</a></p>
 </div>

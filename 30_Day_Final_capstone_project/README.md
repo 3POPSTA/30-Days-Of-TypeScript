@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 30 - Final Capstone: Event-Driven Workflow Engine
 
 <div align="center">
-  <p>[<< Day 29](../29_Day_Async_and_error_handling/29_day_async_and_error_handling.md) | [30 Days of TypeScript](../readMe.md) | [Home](../readMe.md)</p>
+  <p><a href="../29_Day_Async_and_error_handling/29_day_async_and_error_handling.md">&lt;&lt; Day 29</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../README.md">Home &gt;&gt;</a></p>
 </div>
 
 ---
@@ -132,5 +132,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 30** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 29](../29_Day_Async_and_error_handling/29_day_async_and_error_handling.md) | [30 Days of TypeScript](../readMe.md) | [Home](../readMe.md)</p>
+  <p><a href="../29_Day_Async_and_error_handling/29_day_async_and_error_handling.md">&lt;&lt; Day 29</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../README.md">Home &gt;&gt;</a></p>
 </div>

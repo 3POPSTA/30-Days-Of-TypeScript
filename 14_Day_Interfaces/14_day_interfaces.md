@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 14 - Interfaces & Inheritance
 
 <div align="center">
-  <p>[<< Day 13](../13_Day_Function_overloading/13_day_function_overloading.md) | [30 Days of TypeScript](../readMe.md) | [Day 15 >>](../15_Day_Interface_vs_type/15_day_interface_vs_type.md)</p>
+  <p><a href="../13_Day_Function_overloading/13_day_function_overloading.md">&lt;&lt; Day 13</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../15_Day_Interface_vs_type/15_day_interface_vs_type.md">Day 15 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -125,5 +125,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 14** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 13](../13_Day_Function_overloading/13_day_function_overloading.md) | [30 Days of TypeScript](../readMe.md) | [Day 15 >>](../15_Day_Interface_vs_type/15_day_interface_vs_type.md)</p>
+  <p><a href="../13_Day_Function_overloading/13_day_function_overloading.md">&lt;&lt; Day 13</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../15_Day_Interface_vs_type/15_day_interface_vs_type.md">Day 15 &gt;&gt;</a></p>
 </div>

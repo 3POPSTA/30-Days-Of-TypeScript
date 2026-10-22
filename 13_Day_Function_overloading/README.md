@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 13 - Function Overloading & Signatures
 
 <div align="center">
-  <p>[<< Day 12](../12_Day_Functions/12_day_functions.md) | [30 Days of TypeScript](../readMe.md) | [Day 14 >>](../14_Day_Interfaces/14_day_interfaces.md)</p>
+  <p><a href="../12_Day_Functions/12_day_functions.md">&lt;&lt; Day 12</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../14_Day_Interfaces/14_day_interfaces.md">Day 14 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -118,5 +118,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 13** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 12](../12_Day_Functions/12_day_functions.md) | [30 Days of TypeScript](../readMe.md) | [Day 14 >>](../14_Day_Interfaces/14_day_interfaces.md)</p>
+  <p><a href="../12_Day_Functions/12_day_functions.md">&lt;&lt; Day 12</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../14_Day_Interfaces/14_day_interfaces.md">Day 14 &gt;&gt;</a></p>
 </div>

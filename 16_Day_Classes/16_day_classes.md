@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 16 - Classes, Access Modifiers & readonly
 
 <div align="center">
-  <p>[<< Day 15](../15_Day_Interface_vs_type/15_day_interface_vs_type.md) | [30 Days of TypeScript](../readMe.md) | [Day 17 >>](../17_Day_Abstract_classes/17_day_abstract_classes.md)</p>
+  <p><a href="../15_Day_Interface_vs_type/15_day_interface_vs_type.md">&lt;&lt; Day 15</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../17_Day_Abstract_classes/17_day_abstract_classes.md">Day 17 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -127,5 +127,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 16** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 15](../15_Day_Interface_vs_type/15_day_interface_vs_type.md) | [30 Days of TypeScript](../readMe.md) | [Day 17 >>](../17_Day_Abstract_classes/17_day_abstract_classes.md)</p>
+  <p><a href="../15_Day_Interface_vs_type/15_day_interface_vs_type.md">&lt;&lt; Day 15</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../17_Day_Abstract_classes/17_day_abstract_classes.md">Day 17 &gt;&gt;</a></p>
 </div>

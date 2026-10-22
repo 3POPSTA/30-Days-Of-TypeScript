@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 02 - Primitive Data Types & Type Annotations
 
 <div align="center">
-  <p>[<< Day 1](../01_Day_Introduction/01_day_introduction.md) | [30 Days of TypeScript](../readMe.md) | [Day 3 >>](../03_Day_Special_types/03_day_special_types.md)</p>
+  <p><a href="../01_Day_Introduction/01_day_introduction.md">&lt;&lt; Day 1</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../03_Day_Special_types/03_day_special_types.md">Day 3 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -143,5 +143,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 02** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 1](../01_Day_Introduction/01_day_introduction.md) | [30 Days of TypeScript](../readMe.md) | [Day 3 >>](../03_Day_Special_types/03_day_special_types.md)</p>
+  <p><a href="../01_Day_Introduction/01_day_introduction.md">&lt;&lt; Day 1</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../03_Day_Special_types/03_day_special_types.md">Day 3 &gt;&gt;</a></p>
 </div>

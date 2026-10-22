@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 27 - Utility Types Masterclass (Part 1)
 
 <div align="center">
-  <p>[<< Day 26](../26_Day_The_infer_keyword/26_day_the_infer_keyword.md) | [30 Days of TypeScript](../readMe.md) | [Day 28 >>](../28_Day_Utility_types_part_2/28_day_utility_types_part_2.md)</p>
+  <p><a href="../26_Day_The_infer_keyword/26_day_the_infer_keyword.md">&lt;&lt; Day 26</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../28_Day_Utility_types_part_2/28_day_utility_types_part_2.md">Day 28 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -130,5 +130,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 27** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 26](../26_Day_The_infer_keyword/26_day_the_infer_keyword.md) | [30 Days of TypeScript](../readMe.md) | [Day 28 >>](../28_Day_Utility_types_part_2/28_day_utility_types_part_2.md)</p>
+  <p><a href="../26_Day_The_infer_keyword/26_day_the_infer_keyword.md">&lt;&lt; Day 26</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../28_Day_Utility_types_part_2/28_day_utility_types_part_2.md">Day 28 &gt;&gt;</a></p>
 </div>

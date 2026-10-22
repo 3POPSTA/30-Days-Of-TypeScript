@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 12 - Functions, Parameters, Rest & Optional
 
 <div align="center">
-  <p>[<< Day 11](../11_Day_Discriminated_unions/11_day_discriminated_unions.md) | [30 Days of TypeScript](../readMe.md) | [Day 13 >>](../13_Day_Function_overloading/13_day_function_overloading.md)</p>
+  <p><a href="../11_Day_Discriminated_unions/11_day_discriminated_unions.md">&lt;&lt; Day 11</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../13_Day_Function_overloading/13_day_function_overloading.md">Day 13 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -127,5 +127,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 12** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 11](../11_Day_Discriminated_unions/11_day_discriminated_unions.md) | [30 Days of TypeScript](../readMe.md) | [Day 13 >>](../13_Day_Function_overloading/13_day_function_overloading.md)</p>
+  <p><a href="../11_Day_Discriminated_unions/11_day_discriminated_unions.md">&lt;&lt; Day 11</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../13_Day_Function_overloading/13_day_function_overloading.md">Day 13 &gt;&gt;</a></p>
 </div>

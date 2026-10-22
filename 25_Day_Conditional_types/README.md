@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 25 - Conditional Types & Distributive Conditionals
 
 <div align="center">
-  <p>[<< Day 24](../24_Day_Template_literal_types/24_day_template_literal_types.md) | [30 Days of TypeScript](../readMe.md) | [Day 26 >>](../26_Day_The_infer_keyword/26_day_the_infer_keyword.md)</p>
+  <p><a href="../24_Day_Template_literal_types/24_day_template_literal_types.md">&lt;&lt; Day 24</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../26_Day_The_infer_keyword/26_day_the_infer_keyword.md">Day 26 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -117,5 +117,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 25** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 24](../24_Day_Template_literal_types/24_day_template_literal_types.md) | [30 Days of TypeScript](../readMe.md) | [Day 26 >>](../26_Day_The_infer_keyword/26_day_the_infer_keyword.md)</p>
+  <p><a href="../24_Day_Template_literal_types/24_day_template_literal_types.md">&lt;&lt; Day 24</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../26_Day_The_infer_keyword/26_day_the_infer_keyword.md">Day 26 &gt;&gt;</a></p>
 </div>

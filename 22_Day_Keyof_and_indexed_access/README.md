@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 22 - Keyof, Indexed Access & typeof Queries
 
 <div align="center">
-  <p>[<< Day 21](../21_Day_Generic_classes/21_day_generic_classes.md) | [30 Days of TypeScript](../readMe.md) | [Day 23 >>](../23_Day_Mapped_types/23_day_mapped_types.md)</p>
+  <p><a href="../21_Day_Generic_classes/21_day_generic_classes.md">&lt;&lt; Day 21</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../23_Day_Mapped_types/23_day_mapped_types.md">Day 23 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -129,5 +129,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 22** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 21](../21_Day_Generic_classes/21_day_generic_classes.md) | [30 Days of TypeScript](../readMe.md) | [Day 23 >>](../23_Day_Mapped_types/23_day_mapped_types.md)</p>
+  <p><a href="../21_Day_Generic_classes/21_day_generic_classes.md">&lt;&lt; Day 21</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../23_Day_Mapped_types/23_day_mapped_types.md">Day 23 &gt;&gt;</a></p>
 </div>

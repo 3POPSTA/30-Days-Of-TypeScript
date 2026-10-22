@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 21 - Generic Classes & Data Structures
 
 <div align="center">
-  <p>[<< Day 20](../20_Day_Generics_constraints/20_day_generics_constraints.md) | [30 Days of TypeScript](../readMe.md) | [Day 22 >>](../22_Day_Keyof_and_indexed_access/22_day_keyof_and_indexed_access.md)</p>
+  <p><a href="../20_Day_Generics_constraints/20_day_generics_constraints.md">&lt;&lt; Day 20</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../22_Day_Keyof_and_indexed_access/22_day_keyof_and_indexed_access.md">Day 22 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -130,5 +130,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 21** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 20](../20_Day_Generics_constraints/20_day_generics_constraints.md) | [30 Days of TypeScript](../readMe.md) | [Day 22 >>](../22_Day_Keyof_and_indexed_access/22_day_keyof_and_indexed_access.md)</p>
+  <p><a href="../20_Day_Generics_constraints/20_day_generics_constraints.md">&lt;&lt; Day 20</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../22_Day_Keyof_and_indexed_access/22_day_keyof_and_indexed_access.md">Day 22 &gt;&gt;</a></p>
 </div>

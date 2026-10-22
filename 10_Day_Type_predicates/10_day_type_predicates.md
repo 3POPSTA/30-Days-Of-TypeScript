@@ -1,7 +1,7 @@
 # 30 Days Of TypeScript: Day 10 - Type Predicates & Custom Type Guards
 
 <div align="center">
-  <p>[<< Day 9](../09_Day_Type_narrowing/09_day_type_narrowing.md) | [30 Days of TypeScript](../readMe.md) | [Day 11 >>](../11_Day_Discriminated_unions/11_day_discriminated_unions.md)</p>
+  <p><a href="../09_Day_Type_narrowing/09_day_type_narrowing.md">&lt;&lt; Day 9</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../11_Day_Discriminated_unions/11_day_discriminated_unions.md">Day 11 &gt;&gt;</a></p>
 </div>
 
 ---
@@ -120,5 +120,5 @@ npm test
 🌕 **You are amazing!** You have conquered **Day 10** of 30 Days of TypeScript. Keep the momentum going!
 
 <div align="center">
-  <p>[<< Day 9](../09_Day_Type_narrowing/09_day_type_narrowing.md) | [30 Days of TypeScript](../readMe.md) | [Day 11 >>](../11_Day_Discriminated_unions/11_day_discriminated_unions.md)</p>
+  <p><a href="../09_Day_Type_narrowing/09_day_type_narrowing.md">&lt;&lt; Day 9</a> | <a href="../README.md">30 Days of TypeScript</a> | <a href="../11_Day_Discriminated_unions/11_day_discriminated_unions.md">Day 11 &gt;&gt;</a></p>
 </div>
