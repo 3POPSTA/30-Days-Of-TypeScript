@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 11: DISCRIMINATED UNIONS & PATTERN MATCHING — CODING CHALLENGES
+ * DAY 11: DISCRIMINATED UNIONS & PATTERN MATCHING - CODING CHALLENGES
  * ============================================================================
  * Discriminated unions (tagged unions) have a common literal discriminator
  * property, enabling safe, exhaustive pattern matching.

@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 01: INTRODUCTION & GETTING STARTED — CODING CHALLENGES
+ * DAY 01: INTRODUCTION & GETTING STARTED - CODING CHALLENGES
  * ============================================================================
  * Welcome to Day 01's hands-on challenge!
  * 

@@ -10,7 +10,7 @@ export const days16_20: ChallengeFile[] = [
     topic: "Classes, Access Modifiers & readonly",
     code: `/**
  * ============================================================================
- * DAY 16: CLASSES, ACCESS MODIFIERS & READONLY — CODING CHALLENGES
+ * DAY 16: CLASSES, ACCESS MODIFIERS & READONLY - CODING CHALLENGES
  * ============================================================================
  * TypeScript brings enterprise OOP features to ES6 classes:
  * - Access modifiers: public (default), private (# or private), protected
@@ -223,7 +223,7 @@ console.log("\\n[Summary] Day 16 challenge checks completed!\\n");
     topic: "Abstract Classes, override & Polymorphism",
     code: `/**
  * ============================================================================
- * DAY 17: ABSTRACT CLASSES, OVERRIDE & POLYMORPHISM — CODING CHALLENGES
+ * DAY 17: ABSTRACT CLASSES, OVERRIDE & POLYMORPHISM - CODING CHALLENGES
  * ============================================================================
  * Abstract classes define incomplete base classes that cannot be instantiated directly:
  * - 'abstract' methods define signatures child classes must implement
@@ -406,7 +406,7 @@ console.log("\\n[Summary] Day 17 challenge checks completed!\\n");
     topic: "Enums & Object Literals as const",
     code: `/**
  * ============================================================================
- * DAY 18: ENUMS & OBJECT LITERALS AS CONST — CODING CHALLENGES
+ * DAY 18: ENUMS & OBJECT LITERALS AS CONST - CODING CHALLENGES
  * ============================================================================
  * Enums create named sets of numeric or string constants:
  * - Numeric enums feature automatic auto-incrementing and reverse mapping
@@ -563,7 +563,7 @@ console.log("\\n[Summary] Day 18 challenge checks completed!\\n");
     topic: "Generics: Functions, Interfaces & Types",
     code: `/**
  * ============================================================================
- * DAY 19: GENERICS BASICS — CODING CHALLENGES
+ * DAY 19: GENERICS BASICS - CODING CHALLENGES
  * ============================================================================
  * Generics provide parameterized types that make functions, interfaces,
  * and classes reusable across diverse data types while preserving safety.
@@ -732,7 +732,7 @@ console.log("\\n[Summary] Day 19 challenge checks completed!\\n");
     topic: "Generics Constraints & keyof Operator",
     code: `/**
  * ============================================================================
- * DAY 20: GENERICS CONSTRAINTS & KEYOF — CODING CHALLENGES
+ * DAY 20: GENERICS CONSTRAINTS & KEYOF - CODING CHALLENGES
  * ============================================================================
  * Generic constraints 'extends' ensure type parameters satisfy minimum shapes:
  * - 'T extends { length: number }'

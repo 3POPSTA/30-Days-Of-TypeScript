@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 21: GENERIC CLASSES & DATA STRUCTURES — CODING CHALLENGES
+ * DAY 21: GENERIC CLASSES & DATA STRUCTURES - CODING CHALLENGES
  * ============================================================================
  * Generic classes bind type parameters to an entire instance, ensuring
  * consistency across all methods and internal storage.

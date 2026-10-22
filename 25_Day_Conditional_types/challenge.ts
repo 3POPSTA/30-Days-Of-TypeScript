@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 25: CONDITIONAL TYPES & DISTRIBUTIVE CONDITIONALS — CODING CHALLENGES
+ * DAY 25: CONDITIONAL TYPES & DISTRIBUTIVE CONDITIONALS - CODING CHALLENGES
  * ============================================================================
  * Conditional types take the form:
  *   'T extends U ? TrueType : FalseType'

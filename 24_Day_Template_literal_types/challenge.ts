@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 24: TEMPLATE LITERAL TYPES & EVENT STRINGS — CODING CHALLENGES
+ * DAY 24: TEMPLATE LITERAL TYPES & EVENT STRINGS - CODING CHALLENGES
  * ============================================================================
  * Template literal types allow building strict string patterns using backtick
  * syntax, combining unions and built-in intrinsics (Uppercase, Lowercase, etc.).

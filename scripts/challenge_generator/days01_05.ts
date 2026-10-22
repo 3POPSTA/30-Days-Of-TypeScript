@@ -10,7 +10,7 @@ export const days01_05: ChallengeFile[] = [
     topic: "Introduction & Getting Started",
     code: `/**
  * ============================================================================
- * DAY 01: INTRODUCTION & GETTING STARTED — CODING CHALLENGES
+ * DAY 01: INTRODUCTION & GETTING STARTED - CODING CHALLENGES
  * ============================================================================
  * Welcome to Day 01's hands-on challenge!
  * 
@@ -163,7 +163,7 @@ console.log("\\n[Summary] Day 01 challenge checks completed!\\n");
     topic: "Primitive Data Types & Type Annotations",
     code: `/**
  * ============================================================================
- * DAY 02: PRIMITIVE DATA TYPES & TYPE ANNOTATIONS — CODING CHALLENGES
+ * DAY 02: PRIMITIVE DATA TYPES & TYPE ANNOTATIONS - CODING CHALLENGES
  * ============================================================================
  * Welcome to Day 02! Today you explore the 7 primitive types:
  * string, number, boolean, null, undefined, symbol, and bigint.
@@ -324,7 +324,7 @@ console.log("\\n[Summary] Day 02 challenge checks completed!\\n");
     topic: "Special Types: any, unknown, never, void",
     code: `/**
  * ============================================================================
- * DAY 03: SPECIAL TYPES: ANY, UNKNOWN, NEVER, VOID — CODING CHALLENGES
+ * DAY 03: SPECIAL TYPES: ANY, UNKNOWN, NEVER, VOID - CODING CHALLENGES
  * ============================================================================
  * Learn the guardrails of the type system:
  * - 'any': opt-out of type checking (use with caution!)
@@ -500,7 +500,7 @@ console.log("\\n[Summary] Day 03 challenge checks completed!\\n");
     topic: "Arrays, Readonly Arrays & Matrices",
     code: `/**
  * ============================================================================
- * DAY 04: ARRAYS, READONLY ARRAYS & MATRICES — CODING CHALLENGES
+ * DAY 04: ARRAYS, READONLY ARRAYS & MATRICES - CODING CHALLENGES
  * ============================================================================
  * Arrays are workhorses in TypeScript:
  * - 'T[]' or 'Array<T>' for mutable arrays
@@ -675,7 +675,7 @@ console.log("\\n[Summary] Day 04 challenge checks completed!\\n");
     topic: "Tuples, Labeled Tuples & as const",
     code: `/**
  * ============================================================================
- * DAY 05: TUPLES, LABELED TUPLES & AS CONST — CODING CHALLENGES
+ * DAY 05: TUPLES, LABELED TUPLES & AS CONST - CODING CHALLENGES
  * ============================================================================
  * Tuples are fixed-length arrays with strictly typed element positions:
  * - Labeled tuples: [lat: number, lng: number]

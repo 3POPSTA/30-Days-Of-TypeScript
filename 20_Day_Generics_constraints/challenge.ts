@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 20: GENERICS CONSTRAINTS & KEYOF — CODING CHALLENGES
+ * DAY 20: GENERICS CONSTRAINTS & KEYOF - CODING CHALLENGES
  * ============================================================================
  * Generic constraints 'extends' ensure type parameters satisfy minimum shapes:
  * - 'T extends { length: number }'

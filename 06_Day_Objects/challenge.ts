@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 06: OBJECT TYPES & PROPERTY MODIFIERS — CODING CHALLENGES
+ * DAY 06: OBJECT TYPES & PROPERTY MODIFIERS - CODING CHALLENGES
  * ============================================================================
  * Object types allow defining exact structural shapes with modifiers:
  * - 'readonly' prevents property re-assignment

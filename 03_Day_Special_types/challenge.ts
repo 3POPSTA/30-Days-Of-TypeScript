@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 03: SPECIAL TYPES: ANY, UNKNOWN, NEVER, VOID — CODING CHALLENGES
+ * DAY 03: SPECIAL TYPES: ANY, UNKNOWN, NEVER, VOID - CODING CHALLENGES
  * ============================================================================
  * Learn the guardrails of the type system:
  * - 'any': opt-out of type checking (use with caution!)

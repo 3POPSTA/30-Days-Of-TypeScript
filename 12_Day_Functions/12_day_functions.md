@@ -96,7 +96,7 @@ console.log("Sum all:", sumAll(1, 2, 3, 4, 5));
 ## ⚠️ Common Pitfalls & Pro Tips
 
 > [!TIP]
-> **Pro Tip**: In TypeScript, the compiler is your pair-programmer. Pay close attention to compiler diagnostic messages—they describe the exact shape mismatch.
+> **Pro Tip**: In TypeScript, the compiler is your pair-programmer. Pay close attention to compiler diagnostic messages: they describe the exact shape mismatch.
 
 > [!WARNING]
 > **Common Pitfall**: Do not fall into the trap of using `any` to silence compiler warnings. Use `unknown` with type guards or write proper generic constraints!

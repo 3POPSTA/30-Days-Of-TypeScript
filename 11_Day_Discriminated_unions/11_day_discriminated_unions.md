@@ -95,7 +95,7 @@ console.log("Square area:", getArea({ kind: "square", size: 4 }));
 ## ⚠️ Common Pitfalls & Pro Tips
 
 > [!TIP]
-> **Pro Tip**: In TypeScript, the compiler is your pair-programmer. Pay close attention to compiler diagnostic messages—they describe the exact shape mismatch.
+> **Pro Tip**: In TypeScript, the compiler is your pair-programmer. Pay close attention to compiler diagnostic messages: they describe the exact shape mismatch.
 
 > [!WARNING]
 > **Common Pitfall**: Do not fall into the trap of using `any` to silence compiler warnings. Use `unknown` with type guards or write proper generic constraints!
@@ -160,7 +160,7 @@ console.log(renderState({ status: "success", data: { user: "Ada" }, receivedAt: 
 ```
 
 **Explanation & Output:**
-Discriminated unions make invalid states unrepresentable—for example, you cannot have 'data' when status is 'loading'.
+Discriminated unions make invalid states unrepresentable. For example, you cannot have 'data' when status is 'loading'.
 
 ---
 

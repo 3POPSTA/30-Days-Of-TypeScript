@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 22: KEYOF, INDEXED ACCESS & TYPEOF QUERIES — CODING CHALLENGES
+ * DAY 22: KEYOF, INDEXED ACCESS & TYPEOF QUERIES - CODING CHALLENGES
  * ============================================================================
  * Type querying operators provide deep structural inspection:
  * - 'keyof T' produces a union of an object's keys

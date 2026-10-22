@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 02: PRIMITIVE DATA TYPES & TYPE ANNOTATIONS — CODING CHALLENGES
+ * DAY 02: PRIMITIVE DATA TYPES & TYPE ANNOTATIONS - CODING CHALLENGES
  * ============================================================================
  * Welcome to Day 02! Today you explore the 7 primitive types:
  * string, number, boolean, null, undefined, symbol, and bigint.

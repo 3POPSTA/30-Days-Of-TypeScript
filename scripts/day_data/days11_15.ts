@@ -46,7 +46,7 @@ function renderState<T>(state: RequestState<T>): string {
 }
 
 console.log(renderState({ status: "success", data: { user: "Ada" }, receivedAt: Date.now() }));`,
-        explanation: "Discriminated unions make invalid states unrepresentable—for example, you cannot have 'data' when status is 'loading'."
+        explanation: "Discriminated unions make invalid states unrepresentable. For example, you cannot have 'data' when status is 'loading'."
       },
       {
         title: "Redux-Style Action Reducer",

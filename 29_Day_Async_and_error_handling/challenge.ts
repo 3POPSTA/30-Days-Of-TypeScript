@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 29: ASYNC AND ERROR HANDLING — CODING CHALLENGES
+ * DAY 29: ASYNC AND ERROR HANDLING - CODING CHALLENGES
  * ============================================================================
  * Build resilient asynchronous systems in TypeScript:
  * - Promises & async/await typing

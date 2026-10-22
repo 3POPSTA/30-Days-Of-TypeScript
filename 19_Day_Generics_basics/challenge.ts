@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 19: GENERICS BASICS — CODING CHALLENGES
+ * DAY 19: GENERICS BASICS - CODING CHALLENGES
  * ============================================================================
  * Generics provide parameterized types that make functions, interfaces,
  * and classes reusable across diverse data types while preserving safety.

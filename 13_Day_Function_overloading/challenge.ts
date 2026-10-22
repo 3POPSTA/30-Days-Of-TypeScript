@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 13: FUNCTION OVERLOADING & SIGNATURES — CODING CHALLENGES
+ * DAY 13: FUNCTION OVERLOADING & SIGNATURES - CODING CHALLENGES
  * ============================================================================
  * Function overloading allows a single function to provide multiple call
  * signatures with differing argument and return types, backed by one

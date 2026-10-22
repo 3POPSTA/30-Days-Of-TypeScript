@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 16: CLASSES, ACCESS MODIFIERS & READONLY — CODING CHALLENGES
+ * DAY 16: CLASSES, ACCESS MODIFIERS & READONLY - CODING CHALLENGES
  * ============================================================================
  * TypeScript brings enterprise OOP features to ES6 classes:
  * - Access modifiers: public (default), private (# or private), protected

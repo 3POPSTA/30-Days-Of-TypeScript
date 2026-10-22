@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 04: ARRAYS, READONLY ARRAYS & MATRICES — CODING CHALLENGES
+ * DAY 04: ARRAYS, READONLY ARRAYS & MATRICES - CODING CHALLENGES
  * ============================================================================
  * Arrays are workhorses in TypeScript:
  * - 'T[]' or 'Array<T>' for mutable arrays

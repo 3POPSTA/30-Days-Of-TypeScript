@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 05: TUPLES, LABELED TUPLES & AS CONST — CODING CHALLENGES
+ * DAY 05: TUPLES, LABELED TUPLES & AS CONST - CODING CHALLENGES
  * ============================================================================
  * Tuples are fixed-length arrays with strictly typed element positions:
  * - Labeled tuples: [lat: number, lng: number]

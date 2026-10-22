@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 14: INTERFACES & INHERITANCE — CODING CHALLENGES
+ * DAY 14: INTERFACES & INHERITANCE - CODING CHALLENGES
  * ============================================================================
  * Interfaces define pure contracts in TypeScript:
  * - Single and multiple inheritance with 'extends'

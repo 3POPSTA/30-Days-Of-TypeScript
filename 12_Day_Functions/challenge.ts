@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 12: FUNCTIONS, PARAMETERS, REST & OPTIONAL — CODING CHALLENGES
+ * DAY 12: FUNCTIONS, PARAMETERS, REST & OPTIONAL - CODING CHALLENGES
  * ============================================================================
  * Functions are first-class citizens in TypeScript:
  * - Default & optional parameters

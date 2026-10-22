@@ -10,7 +10,7 @@ export const days11_15: ChallengeFile[] = [
     topic: "Discriminated Unions & Pattern Matching",
     code: `/**
  * ============================================================================
- * DAY 11: DISCRIMINATED UNIONS & PATTERN MATCHING — CODING CHALLENGES
+ * DAY 11: DISCRIMINATED UNIONS & PATTERN MATCHING - CODING CHALLENGES
  * ============================================================================
  * Discriminated unions (tagged unions) have a common literal discriminator
  * property, enabling safe, exhaustive pattern matching.
@@ -186,7 +186,7 @@ console.log("\\n[Summary] Day 11 challenge checks completed!\\n");
     topic: "Functions, Parameters, Rest & Optional",
     code: `/**
  * ============================================================================
- * DAY 12: FUNCTIONS, PARAMETERS, REST & OPTIONAL — CODING CHALLENGES
+ * DAY 12: FUNCTIONS, PARAMETERS, REST & OPTIONAL - CODING CHALLENGES
  * ============================================================================
  * Functions are first-class citizens in TypeScript:
  * - Default & optional parameters
@@ -347,7 +347,7 @@ console.log("\\n[Summary] Day 12 challenge checks completed!\\n");
     topic: "Function Overloading & Signatures",
     code: `/**
  * ============================================================================
- * DAY 13: FUNCTION OVERLOADING & SIGNATURES — CODING CHALLENGES
+ * DAY 13: FUNCTION OVERLOADING & SIGNATURES - CODING CHALLENGES
  * ============================================================================
  * Function overloading allows a single function to provide multiple call
  * signatures with differing argument and return types, backed by one
@@ -525,7 +525,7 @@ console.log("\\n[Summary] Day 13 challenge checks completed!\\n");
     topic: "Interfaces & Inheritance",
     code: `/**
  * ============================================================================
- * DAY 14: INTERFACES & INHERITANCE — CODING CHALLENGES
+ * DAY 14: INTERFACES & INHERITANCE - CODING CHALLENGES
  * ============================================================================
  * Interfaces define pure contracts in TypeScript:
  * - Single and multiple inheritance with 'extends'
@@ -758,7 +758,7 @@ console.log("\\n[Summary] Day 14 challenge checks completed!\\n");
     topic: "Interface vs Type & Declaration Merging",
     code: `/**
  * ============================================================================
- * DAY 15: INTERFACE VS TYPE & DECLARATION MERGING — CODING CHALLENGES
+ * DAY 15: INTERFACE VS TYPE & DECLARATION MERGING - CODING CHALLENGES
  * ============================================================================
  * Interfaces and Type Aliases are both central to TypeScript, but have distinct
  * advantages:

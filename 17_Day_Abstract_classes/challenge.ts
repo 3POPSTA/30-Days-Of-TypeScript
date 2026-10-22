@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 17: ABSTRACT CLASSES, OVERRIDE & POLYMORPHISM — CODING CHALLENGES
+ * DAY 17: ABSTRACT CLASSES, OVERRIDE & POLYMORPHISM - CODING CHALLENGES
  * ============================================================================
  * Abstract classes define incomplete base classes that cannot be instantiated directly:
  * - 'abstract' methods define signatures child classes must implement

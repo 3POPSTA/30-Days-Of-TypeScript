@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 10: TYPE PREDICATES & CUSTOM TYPE GUARDS — CODING CHALLENGES
+ * DAY 10: TYPE PREDICATES & CUSTOM TYPE GUARDS - CODING CHALLENGES
  * ============================================================================
  * Type predicates bridge runtime verification with compile-time type narrowing:
  * - 'param is Type' user-defined type guards

@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 18: ENUMS & OBJECT LITERALS AS CONST — CODING CHALLENGES
+ * DAY 18: ENUMS & OBJECT LITERALS AS CONST - CODING CHALLENGES
  * ============================================================================
  * Enums create named sets of numeric or string constants:
  * - Numeric enums feature automatic auto-incrementing and reverse mapping

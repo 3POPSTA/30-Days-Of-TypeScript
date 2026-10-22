@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 26: THE INFER KEYWORD & UNWRAPPING TYPES — CODING CHALLENGES
+ * DAY 26: THE INFER KEYWORD & UNWRAPPING TYPES - CODING CHALLENGES
  * ============================================================================
  * The 'infer' keyword allows introducing a type variable inside the 'extends'
  * clause of a conditional type to deduce and extract hidden types:

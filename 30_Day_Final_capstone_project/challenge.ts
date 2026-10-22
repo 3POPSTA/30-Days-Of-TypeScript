@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 30: FINAL CAPSTONE: EVENT-DRIVEN WORKFLOW ENGINE — CODING CHALLENGES
+ * DAY 30: FINAL CAPSTONE: EVENT-DRIVEN WORKFLOW ENGINE - CODING CHALLENGES
  * ============================================================================
  * Congratulations on reaching Day 30!
  * In this final capstone challenge, you bring together everything you've learned:

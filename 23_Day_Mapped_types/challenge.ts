@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 23: MAPPED TYPES & KEY REMAPPING — CODING CHALLENGES
+ * DAY 23: MAPPED TYPES & KEY REMAPPING - CODING CHALLENGES
  * ============================================================================
  * Mapped types iterate over keys of an existing type to produce a new shape:
  * - Syntax: '{ [K in keyof T]: ... }'

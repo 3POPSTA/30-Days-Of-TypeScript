@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 09: TYPE NARROWING & CONTROL FLOW ANALYSIS — CODING CHALLENGES
+ * DAY 09: TYPE NARROWING & CONTROL FLOW ANALYSIS - CODING CHALLENGES
  * ============================================================================
  * TypeScript refines broad types into narrower ones using control flow checks:
  * - 'typeof' for primitives

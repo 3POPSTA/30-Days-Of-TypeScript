@@ -10,7 +10,7 @@ export const days06_10: ChallengeFile[] = [
     topic: "Object Types & Property Modifiers",
     code: `/**
  * ============================================================================
- * DAY 06: OBJECT TYPES & PROPERTY MODIFIERS — CODING CHALLENGES
+ * DAY 06: OBJECT TYPES & PROPERTY MODIFIERS - CODING CHALLENGES
  * ============================================================================
  * Object types allow defining exact structural shapes with modifiers:
  * - 'readonly' prevents property re-assignment
@@ -186,7 +186,7 @@ console.log("\\n[Summary] Day 06 challenge checks completed!\\n");
     topic: "Type Aliases & Intersection Types",
     code: `/**
  * ============================================================================
- * DAY 07: TYPE ALIASES & INTERSECTION TYPES — CODING CHALLENGES
+ * DAY 07: TYPE ALIASES & INTERSECTION TYPES - CODING CHALLENGES
  * ============================================================================
  * Type aliases allow creating custom names for types:
  * - Primitive aliases for domain models
@@ -352,7 +352,7 @@ console.log("\\n[Summary] Day 07 challenge checks completed!\\n");
     topic: "Union Types & Literal Types",
     code: `/**
  * ============================================================================
- * DAY 08: UNION TYPES & LITERAL TYPES — CODING CHALLENGES
+ * DAY 08: UNION TYPES & LITERAL TYPES - CODING CHALLENGES
  * ============================================================================
  * Unions '|' let variables hold one of several possible types.
  * Literal types restrict values to exact strings, numbers, or booleans.
@@ -509,7 +509,7 @@ console.log("\\n[Summary] Day 08 challenge checks completed!\\n");
     topic: "Type Narrowing & Control Flow Analysis",
     code: `/**
  * ============================================================================
- * DAY 09: TYPE NARROWING & CONTROL FLOW ANALYSIS — CODING CHALLENGES
+ * DAY 09: TYPE NARROWING & CONTROL FLOW ANALYSIS - CODING CHALLENGES
  * ============================================================================
  * TypeScript refines broad types into narrower ones using control flow checks:
  * - 'typeof' for primitives
@@ -662,7 +662,7 @@ console.log("\\n[Summary] Day 09 challenge checks completed!\\n");
     topic: "Type Predicates & Custom Type Guards",
     code: `/**
  * ============================================================================
- * DAY 10: TYPE PREDICATES & CUSTOM TYPE GUARDS — CODING CHALLENGES
+ * DAY 10: TYPE PREDICATES & CUSTOM TYPE GUARDS - CODING CHALLENGES
  * ============================================================================
  * Type predicates bridge runtime verification with compile-time type narrowing:
  * - 'param is Type' user-defined type guards

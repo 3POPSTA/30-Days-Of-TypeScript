@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 07: TYPE ALIASES & INTERSECTION TYPES — CODING CHALLENGES
+ * DAY 07: TYPE ALIASES & INTERSECTION TYPES - CODING CHALLENGES
  * ============================================================================
  * Type aliases allow creating custom names for types:
  * - Primitive aliases for domain models

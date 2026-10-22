@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 28: UTILITY TYPES MASTERCLASS (PART 2) — CODING CHALLENGES
+ * DAY 28: UTILITY TYPES MASTERCLASS (PART 2) - CODING CHALLENGES
  * ============================================================================
  * Explore conditional and function introspection utility types:
  * - Exclude<T, U> & Extract<T, U>

@@ -10,7 +10,7 @@ export const days26_30: ChallengeFile[] = [
     topic: "The infer Keyword & Unwrapping Types",
     code: `/**
  * ============================================================================
- * DAY 26: THE INFER KEYWORD & UNWRAPPING TYPES — CODING CHALLENGES
+ * DAY 26: THE INFER KEYWORD & UNWRAPPING TYPES - CODING CHALLENGES
  * ============================================================================
  * The 'infer' keyword allows introducing a type variable inside the 'extends'
  * clause of a conditional type to deduce and extract hidden types:
@@ -137,7 +137,7 @@ console.log("\\n[Summary] Day 26 challenge checks completed!\\n");
     topic: "Utility Types Part 1: Partial, Pick, Omit, etc.",
     code: `/**
  * ============================================================================
- * DAY 27: UTILITY TYPES MASTERCLASS (PART 1) — CODING CHALLENGES
+ * DAY 27: UTILITY TYPES MASTERCLASS (PART 1) - CODING CHALLENGES
  * ============================================================================
  * Built-in utility types transform types effortlessly:
  * - Partial<T> & Required<T>
@@ -304,7 +304,7 @@ console.log("\\n[Summary] Day 27 challenge checks completed!\\n");
     topic: "Utility Types Part 2: Extract, Exclude, ReturnType, etc.",
     code: `/**
  * ============================================================================
- * DAY 28: UTILITY TYPES MASTERCLASS (PART 2) — CODING CHALLENGES
+ * DAY 28: UTILITY TYPES MASTERCLASS (PART 2) - CODING CHALLENGES
  * ============================================================================
  * Explore conditional and function introspection utility types:
  * - Exclude<T, U> & Extract<T, U>
@@ -432,7 +432,7 @@ console.log("\\n[Summary] Day 28 challenge checks completed!\\n");
     topic: "Async, Promises, and Robust Error Handling",
     code: `/**
  * ============================================================================
- * DAY 29: ASYNC AND ERROR HANDLING — CODING CHALLENGES
+ * DAY 29: ASYNC AND ERROR HANDLING - CODING CHALLENGES
  * ============================================================================
  * Build resilient asynchronous systems in TypeScript:
  * - Promises & async/await typing
@@ -608,7 +608,7 @@ runTests();
     topic: "Final Capstone: Event-Driven Workflow Engine",
     code: `/**
  * ============================================================================
- * DAY 30: FINAL CAPSTONE: EVENT-DRIVEN WORKFLOW ENGINE — CODING CHALLENGES
+ * DAY 30: FINAL CAPSTONE: EVENT-DRIVEN WORKFLOW ENGINE - CODING CHALLENGES
  * ============================================================================
  * Congratulations on reaching Day 30!
  * In this final capstone challenge, you bring together everything you've learned:

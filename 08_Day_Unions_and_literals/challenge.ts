@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 08: UNION TYPES & LITERAL TYPES — CODING CHALLENGES
+ * DAY 08: UNION TYPES & LITERAL TYPES - CODING CHALLENGES
  * ============================================================================
  * Unions '|' let variables hold one of several possible types.
  * Literal types restrict values to exact strings, numbers, or booleans.

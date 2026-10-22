@@ -10,7 +10,7 @@ export const days21_25: ChallengeFile[] = [
     topic: "Generic Classes & Data Structures",
     code: `/**
  * ============================================================================
- * DAY 21: GENERIC CLASSES & DATA STRUCTURES — CODING CHALLENGES
+ * DAY 21: GENERIC CLASSES & DATA STRUCTURES - CODING CHALLENGES
  * ============================================================================
  * Generic classes bind type parameters to an entire instance, ensuring
  * consistency across all methods and internal storage.
@@ -220,7 +220,7 @@ console.log("\\n[Summary] Day 21 challenge checks completed!\\n");
     topic: "Keyof, Indexed Access & typeof Queries",
     code: `/**
  * ============================================================================
- * DAY 22: KEYOF, INDEXED ACCESS & TYPEOF QUERIES — CODING CHALLENGES
+ * DAY 22: KEYOF, INDEXED ACCESS & TYPEOF QUERIES - CODING CHALLENGES
  * ============================================================================
  * Type querying operators provide deep structural inspection:
  * - 'keyof T' produces a union of an object's keys
@@ -373,7 +373,7 @@ console.log("\\n[Summary] Day 22 challenge checks completed!\\n");
     topic: "Mapped Types & Key Remapping",
     code: `/**
  * ============================================================================
- * DAY 23: MAPPED TYPES & KEY REMAPPING — CODING CHALLENGES
+ * DAY 23: MAPPED TYPES & KEY REMAPPING - CODING CHALLENGES
  * ============================================================================
  * Mapped types iterate over keys of an existing type to produce a new shape:
  * - Syntax: '{ [K in keyof T]: ... }'
@@ -519,7 +519,7 @@ console.log("\\n[Summary] Day 23 challenge checks completed!\\n");
     topic: "Template Literal Types & Event Strings",
     code: `/**
  * ============================================================================
- * DAY 24: TEMPLATE LITERAL TYPES & EVENT STRINGS — CODING CHALLENGES
+ * DAY 24: TEMPLATE LITERAL TYPES & EVENT STRINGS - CODING CHALLENGES
  * ============================================================================
  * Template literal types allow building strict string patterns using backtick
  * syntax, combining unions and built-in intrinsics (Uppercase, Lowercase, etc.).
@@ -663,7 +663,7 @@ console.log("\\n[Summary] Day 24 challenge checks completed!\\n");
     topic: "Conditional Types & Distributive Conditionals",
     code: `/**
  * ============================================================================
- * DAY 25: CONDITIONAL TYPES & DISTRIBUTIVE CONDITIONALS — CODING CHALLENGES
+ * DAY 25: CONDITIONAL TYPES & DISTRIBUTIVE CONDITIONALS - CODING CHALLENGES
  * ============================================================================
  * Conditional types take the form:
  *   'T extends U ? TrueType : FalseType'

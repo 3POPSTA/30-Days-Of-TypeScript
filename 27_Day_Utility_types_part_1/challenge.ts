@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 27: UTILITY TYPES MASTERCLASS (PART 1) — CODING CHALLENGES
+ * DAY 27: UTILITY TYPES MASTERCLASS (PART 1) - CODING CHALLENGES
  * ============================================================================
  * Built-in utility types transform types effortlessly:
  * - Partial<T> & Required<T>

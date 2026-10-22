@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * DAY 15: INTERFACE VS TYPE & DECLARATION MERGING — CODING CHALLENGES
+ * DAY 15: INTERFACE VS TYPE & DECLARATION MERGING - CODING CHALLENGES
  * ============================================================================
  * Interfaces and Type Aliases are both central to TypeScript, but have distinct
  * advantages:
