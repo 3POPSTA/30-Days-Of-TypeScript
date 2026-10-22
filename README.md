@@ -1,40 +1,85 @@
-# 📘 30 Days of TypeScript: Zero to Hero Challenge
+# 30 Days Of TypeScript
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x%2B-blue.svg?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-20%2B-green.svg?style=for-the-badge&logo=node.js)](https://nodejs.org/)
-[![Challenge](https://img.shields.io/badge/Challenge-30%20Days-orange.svg?style=for-the-badge)](https://github.com)
-[![Strict Mode](https://img.shields.io/badge/TypeScript-Strict%20Mode-brightgreen.svg?style=for-the-badge)](tsconfig.json)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-purple.svg?style=for-the-badge)](https://github.com)
+<div align="center">
+  <h1>📘 30 Days Of TypeScript: Zero to Hero</h1>
+  <p>An interactive, comprehensive, 30-day journey to master modern TypeScript from the ground up.</p>
+
+  [![TypeScript](https://img.shields.io/badge/TypeScript-5.x%2B-blue.svg?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+  [![Node.js](https://img.shields.io/badge/Node.js-20%2B-green.svg?style=for-the-badge&logo=node.js)](https://nodejs.org/)
+  [![Challenge](https://img.shields.io/badge/Challenge-30%20Days-orange.svg?style=for-the-badge)](https://github.com)
+  [![Strict Mode](https://img.shields.io/badge/TypeScript-Strict%20Mode-brightgreen.svg?style=for-the-badge)](tsconfig.json)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-purple.svg?style=for-the-badge)](https://github.com)
+
+  <br />
+
+  <p><strong>Inspired by Asabeneh's legendary <a href="https://github.com/Asabeneh/30-Days-Of-JavaScript">30 Days of JavaScript</a></strong></p>
+</div>
+
+---
+
+| # Day | Topics | Runnable Lesson | Multi-Tier Exercises | Verified Solution |
+| :---: | :------------------------------------------------------------------------------------------------------------------ | :-------------: | :------------------: | :---------------: |
+| 01 | [Introduction & Getting Started](./01_Day_Introduction/01_day_introduction.md) | [lesson.ts](./01_Day_Introduction/lesson.ts) | [exercise.ts](./01_Day_Introduction/exercise.ts) | [solution.ts](./01_Day_Introduction/solution.ts) |
+| 02 | [Primitive Data Types & Type Annotations](./02_Day_Primitive_types/02_day_primitive_types.md) | [lesson.ts](./02_Day_Primitive_types/lesson.ts) | [exercise.ts](./02_Day_Primitive_types/exercise.ts) | [solution.ts](./02_Day_Primitive_types/solution.ts) |
+| 03 | [Special Types: any, unknown, never, void](./03_Day_Special_types/03_day_special_types.md) | [lesson.ts](./03_Day_Special_types/lesson.ts) | [exercise.ts](./03_Day_Special_types/exercise.ts) | [solution.ts](./03_Day_Special_types/solution.ts) |
+| 04 | [Arrays, Readonly Arrays & Matrices](./04_Day_Arrays/04_day_arrays.md) | [lesson.ts](./04_Day_Arrays/lesson.ts) | [exercise.ts](./04_Day_Arrays/exercise.ts) | [solution.ts](./04_Day_Arrays/solution.ts) |
+| 05 | [Tuples, Labeled Tuples & as const](./05_Day_Tuples/05_day_tuples.md) | [lesson.ts](./05_Day_Tuples/lesson.ts) | [exercise.ts](./05_Day_Tuples/exercise.ts) | [solution.ts](./05_Day_Tuples/solution.ts) |
+| 06 | [Object Types & Property Modifiers](./06_Day_Objects/06_day_objects.md) | [lesson.ts](./06_Day_Objects/lesson.ts) | [exercise.ts](./06_Day_Objects/exercise.ts) | [solution.ts](./06_Day_Objects/solution.ts) |
+| 07 | [Type Aliases & Intersection Types](./07_Day_Type_aliases/07_day_type_aliases.md) | [lesson.ts](./07_Day_Type_aliases/lesson.ts) | [exercise.ts](./07_Day_Type_aliases/exercise.ts) | [solution.ts](./07_Day_Type_aliases/solution.ts) |
+| 08 | [Union Types & Literal Types](./08_Day_Unions_and_literals/08_day_unions_and_literals.md) | [lesson.ts](./08_Day_Unions_and_literals/lesson.ts) | [exercise.ts](./08_Day_Unions_and_literals/exercise.ts) | [solution.ts](./08_Day_Unions_and_literals/solution.ts) |
+| 09 | [Type Narrowing & Control Flow Analysis](./09_Day_Type_narrowing/09_day_type_narrowing.md) | [lesson.ts](./09_Day_Type_narrowing/lesson.ts) | [exercise.ts](./09_Day_Type_narrowing/exercise.ts) | [solution.ts](./09_Day_Type_narrowing/solution.ts) |
+| 10 | [Type Predicates & Custom Type Guards](./10_Day_Type_predicates/10_day_type_predicates.md) | [lesson.ts](./10_Day_Type_predicates/lesson.ts) | [exercise.ts](./10_Day_Type_predicates/exercise.ts) | [solution.ts](./10_Day_Type_predicates/solution.ts) |
+| 11 | [Discriminated Unions & Pattern Matching](./11_Day_Discriminated_unions/11_day_discriminated_unions.md) | [lesson.ts](./11_Day_Discriminated_unions/lesson.ts) | [exercise.ts](./11_Day_Discriminated_unions/exercise.ts) | [solution.ts](./11_Day_Discriminated_unions/solution.ts) |
+| 12 | [Functions, Parameters, Rest & Optional](./12_Day_Functions/12_day_functions.md) | [lesson.ts](./12_Day_Functions/lesson.ts) | [exercise.ts](./12_Day_Functions/exercise.ts) | [solution.ts](./12_Day_Functions/solution.ts) |
+| 13 | [Function Overloading & Signatures](./13_Day_Function_overloading/13_day_function_overloading.md) | [lesson.ts](./13_Day_Function_overloading/lesson.ts) | [exercise.ts](./13_Day_Function_overloading/exercise.ts) | [solution.ts](./13_Day_Function_overloading/solution.ts) |
+| 14 | [Interfaces & Inheritance](./14_Day_Interfaces/14_day_interfaces.md) | [lesson.ts](./14_Day_Interfaces/lesson.ts) | [exercise.ts](./14_Day_Interfaces/exercise.ts) | [solution.ts](./14_Day_Interfaces/solution.ts) |
+| 15 | [Interface vs Type & Declaration Merging](./15_Day_Interface_vs_type/15_day_interface_vs_type.md) | [lesson.ts](./15_Day_Interface_vs_type/lesson.ts) | [exercise.ts](./15_Day_Interface_vs_type/exercise.ts) | [solution.ts](./15_Day_Interface_vs_type/solution.ts) |
+| 16 | [Classes, Access Modifiers & readonly](./16_Day_Classes/16_day_classes.md) | [lesson.ts](./16_Day_Classes/lesson.ts) | [exercise.ts](./16_Day_Classes/exercise.ts) | [solution.ts](./16_Day_Classes/solution.ts) |
+| 17 | [Abstract Classes, override & Polymorphism](./17_Day_Abstract_classes/17_day_abstract_classes.md) | [lesson.ts](./17_Day_Abstract_classes/lesson.ts) | [exercise.ts](./17_Day_Abstract_classes/exercise.ts) | [solution.ts](./17_Day_Abstract_classes/solution.ts) |
+| 18 | [Enums & Object Literals as const](./18_Day_Enums/18_day_enums.md) | [lesson.ts](./18_Day_Enums/lesson.ts) | [exercise.ts](./18_Day_Enums/exercise.ts) | [solution.ts](./18_Day_Enums/solution.ts) |
+| 19 | [Generics: Functions, Interfaces & Types](./19_Day_Generics_basics/19_day_generics_basics.md) | [lesson.ts](./19_Day_Generics_basics/lesson.ts) | [exercise.ts](./19_Day_Generics_basics/exercise.ts) | [solution.ts](./19_Day_Generics_basics/solution.ts) |
+| 20 | [Generics Constraints & keyof Operator](./20_Day_Generics_constraints/20_day_generics_constraints.md) | [lesson.ts](./20_Day_Generics_constraints/lesson.ts) | [exercise.ts](./20_Day_Generics_constraints/exercise.ts) | [solution.ts](./20_Day_Generics_constraints/solution.ts) |
+| 21 | [Generic Classes & Data Structures](./21_Day_Generic_classes/21_day_generic_classes.md) | [lesson.ts](./21_Day_Generic_classes/lesson.ts) | [exercise.ts](./21_Day_Generic_classes/exercise.ts) | [solution.ts](./21_Day_Generic_classes/solution.ts) |
+| 22 | [Keyof, Indexed Access & typeof Queries](./22_Day_Keyof_and_indexed_access/22_day_keyof_and_indexed_access.md) | [lesson.ts](./22_Day_Keyof_and_indexed_access/lesson.ts) | [exercise.ts](./22_Day_Keyof_and_indexed_access/exercise.ts) | [solution.ts](./22_Day_Keyof_and_indexed_access/solution.ts) |
+| 23 | [Mapped Types & Key Remapping](./23_Day_Mapped_types/23_day_mapped_types.md) | [lesson.ts](./23_Day_Mapped_types/lesson.ts) | [exercise.ts](./23_Day_Mapped_types/exercise.ts) | [solution.ts](./23_Day_Mapped_types/solution.ts) |
+| 24 | [Template Literal Types & Event Strings](./24_Day_Template_literal_types/24_day_template_literal_types.md) | [lesson.ts](./24_Day_Template_literal_types/lesson.ts) | [exercise.ts](./24_Day_Template_literal_types/exercise.ts) | [solution.ts](./24_Day_Template_literal_types/solution.ts) |
+| 25 | [Conditional Types & Distributive Conditionals](./25_Day_Conditional_types/25_day_conditional_types.md) | [lesson.ts](./25_Day_Conditional_types/lesson.ts) | [exercise.ts](./25_Day_Conditional_types/exercise.ts) | [solution.ts](./25_Day_Conditional_types/solution.ts) |
+| 26 | [The infer Keyword & Unwrapping Types](./26_Day_The_infer_keyword/26_day_the_infer_keyword.md) | [lesson.ts](./26_Day_The_infer_keyword/lesson.ts) | [exercise.ts](./26_Day_The_infer_keyword/exercise.ts) | [solution.ts](./26_Day_The_infer_keyword/solution.ts) |
+| 27 | [Utility Types Part 1: Partial, Pick, Omit, etc.](./27_Day_Utility_types_part_1/27_day_utility_types_part_1.md) | [lesson.ts](./27_Day_Utility_types_part_1/lesson.ts) | [exercise.ts](./27_Day_Utility_types_part_1/exercise.ts) | [solution.ts](./27_Day_Utility_types_part_1/solution.ts) |
+| 28 | [Utility Types Part 2: Extract, Exclude, ReturnType, etc.](./28_Day_Utility_types_part_2/28_day_utility_types_part_2.md) | [lesson.ts](./28_Day_Utility_types_part_2/lesson.ts) | [exercise.ts](./28_Day_Utility_types_part_2/exercise.ts) | [solution.ts](./28_Day_Utility_types_part_2/solution.ts) |
+| 29 | [Async, Promises, and Robust Error Handling](./29_Day_Async_and_error_handling/29_day_async_and_error_handling.md) | [lesson.ts](./29_Day_Async_and_error_handling/lesson.ts) | [exercise.ts](./29_Day_Async_and_error_handling/exercise.ts) | [solution.ts](./29_Day_Async_and_error_handling/solution.ts) |
+| 30 | [Final Capstone: Event-Driven Workflow Engine](./30_Day_Final_capstone_project/30_day_final_capstone_project.md) | [lesson.ts](./30_Day_Final_capstone_project/lesson.ts) | [exercise.ts](./30_Day_Final_capstone_project/exercise.ts) | [solution.ts](./30_Day_Final_capstone_project/solution.ts) |
+
+---
+
+## 🧡 Welcome & Philosophy
 
 > *"The secret of getting ahead is getting started. The secret of getting started is breaking your complex overwhelming tasks into small manageable tasks, and starting on the first one."* — Mark Twain
 
-Welcome to the **30 Days of TypeScript** challenge! Inspired by iconic community initiatives like *30 Days of JavaScript*, this repository is an interactive, step-by-step masterclass designed to take you from a complete beginner (**Zero**) to a type-system architect (**Hero**).
+**30 Days of TypeScript** is a step-by-step educational guide designed to turn you into a confident TypeScript engineer. TypeScript is now the undisputed standard for modern web, cloud, and enterprise systems — powering libraries like React, Vue, Next.js, Angular, NestJS, and Node.js toolchains.
 
-Whether you are a JavaScript developer seeking type safety, a frontend engineer mastering React/Next.js contracts, a backend developer crafting robust APIs, or prepping for senior technical interviews — this challenge will transform how you write software.
-
----
-
-## 🌟 Why Take This Challenge?
-
-1. 🗓️ **One Day at a Time**: 30 focused daily milestones (30 to 60 minutes a day).
-2. ⚡ **Zero-Config Interactive CLI**: Run `npm start` to access the interactive terminal dashboard or run any day instantly with `npm run day:XX`.
-3. 🏋️ **Multi-Tiered Exercises**: Every single day includes exercises across 3 difficulty tiers:
-   - 🟢 **Level 1**: Fundamentals & syntax warm-ups.
-   - 🟡 **Level 2**: Real-world application challenges.
-   - 🔴 **Level 3**: Edge cases, performance, and type gymnastics.
-4. 🧪 **Automated Verification**: Built-in test suite (`npm test`) verifies all your answers in seconds!
-5. 🛡️ **Production-Ready Best Practices**: Learn safe error handling without exceptions, `tsconfig.json` compiler tuning, and real-world architectural design patterns.
+This repository provides:
+1. **Clear, Jargon-Free Explanations**: Deep dives into the "why" and "how" behind TypeScript's structural type system.
+2. **Runnable Lesson Files**: Real executable code for every single day.
+3. **Three-Tier Exercises**:
+   - 🟢 **Level 1**: Syntax warmups & core mechanics.
+   - 🟡 **Level 2**: Realistic application logic & practical algorithms.
+   - 🔴 **Level 3**: Advanced type gymnastics, edge cases, and architectures.
+4. **Instant Automated Verification**: Run `npm test` or `npx tsx <Folder>/exercise.ts` to get immediate feedback.
+5. **Interactive Dashboard**: Run `npm start` for a visual overview of your journey.
 
 ---
 
-## 🚀 Quick Start Guide
+## 🚀 Getting Started
 
-### 1. Prerequisites
-Make sure you have [Node.js](https://nodejs.org/) (v18 or higher) installed.
+### 1. Requirements
+- [Node.js](https://nodejs.org/) (version 18 or newer recommended).
+- A code editor like [VS Code](https://code.visualstudio.com/) with the official TypeScript extension.
 
-### 2. Fork & Clone
-Fork this repository to your GitHub account, then clone it locally:
+### 2. Installation & Setup
+Clone your repository and install dependencies:
+
 ```bash
 git clone https://github.com/<your-username>/Typescript-Tutor.git
 cd Typescript-Tutor
@@ -46,112 +91,142 @@ npm install
 npm start
 ```
 
-### 4. How to Learn Each Day
-1. 📖 **Read the Daily Guide**: Open `src/day-XX/README.md` for in-depth theory, diagrams, and code snippets.
-2. 💻 **Run the Lesson**: Execute `npm run day:XX` to see the live demonstration code in your terminal.
-3. ✏️ **Solve the Exercises**: Open `src/day-XX/exercise.ts` and fill out the `TODO` challenges for Level 1, Level 2, and Level 3.
-4. 🧪 **Verify Your Solution**: Run `npx tsx src/day-XX/exercise.ts` or run the global test suite with `npm test`.
-5. 💡 **Compare with Reference Solution**: Check `src/day-XX/solution.ts`.
-6. 🎯 **Track Your Progress**: Check off `[x]` the day in your `README.md` and commit your progress!
+### 4. Running Any Daily Lesson
+You can execute any day's lesson directly using npm scripts:
+```bash
+npm run day:01    # Runs Day 01
+npm run day:15    # Runs Day 15
+npm run day:30    # Runs Day 30
+```
+
+### 5. Verifying Your Exercises
+Every day folder has an `exercise.ts` file with automated unit assertions:
+```bash
+# Verify an individual day
+npx tsx 01_Day_Introduction/exercise.ts
+
+# Verify ALL 30 days at once
+npm test
+```
+
+### 6. Strict Type Health
+Ensure zero TypeScript compilation errors across the entire repository:
+```bash
+npm run typecheck
+```
 
 ---
 
-## 🗺️ 30-Day Curriculum & Progress Tracker
+## 🗺️ Weekly Curriculum Overview
 
-Track your daily progress by checking `[x]` on the boxes below!
+### 🌟 Week 1: Foundations & The Core Type System (Days 01 - 07)
+Master TypeScript basics, compiler mechanics, primitives, special types, array structures, tuples, and object shapes.
+- **Day 01**: Transpilation architecture, `tsc`, and your first TS script.
+- **Day 02**: Primitives (string, number, boolean, bigint, symbol, null, undefined).
+- **Day 03**: Special types (`any` anti-pattern vs `unknown` safety vs `never` unreachability).
+- **Day 04**: Arrays, generics, `ReadonlyArray`, and multidimensional matrices.
+- **Day 05**: Tuples, labeled tuples, rest elements, and `as const` immutability.
+- **Day 06**: Object types, optional properties, `readonly`, and excess property checks.
+- **Day 07**: Type aliases and intersection types (`&`).
 
-### 🌟 Week 1: Foundations & The Core Type System
-- [ ] **Day 01**: [Introduction, Environment & First Program](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-01-introduction/README.md) `🟢 Beginner` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-01-introduction/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-01-introduction/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-01-introduction/solution.ts)
-- [ ] **Day 02**: [Primitive Types & Type Inference](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-02-primitives/README.md) `🟢 Beginner` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-02-primitives/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-02-primitives/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-02-primitives/solution.ts)
-- [ ] **Day 03**: [Special Types: any, unknown, never, void](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-03-special-types/README.md) `🟢 Beginner` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-03-special-types/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-03-special-types/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-03-special-types/solution.ts)
-- [ ] **Day 04**: [Arrays, Readonly Arrays & Matrices](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-04-arrays/README.md) `🟢 Beginner` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-04-arrays/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-04-arrays/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-04-arrays/solution.ts)
-- [ ] **Day 05**: [Tuples, Labeled Tuples & as const](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-05-tuples/README.md) `🟢 Beginner` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-05-tuples/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-05-tuples/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-05-tuples/solution.ts)
-- [ ] **Day 06**: [Object Types & Excess Property Checks](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-06-objects/README.md) `🟢 Beginner` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-06-objects/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-06-objects/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-06-objects/solution.ts)
-- [ ] **Day 07**: [Type Aliases & Intersection Types](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-07-type-aliases/README.md) `🟢 Beginner` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-07-type-aliases/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-07-type-aliases/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-07-type-aliases/solution.ts)
+### ⚡ Week 2: Functions, Unions, Narrowing & Interfaces (Days 08 - 14)
+Understand how TypeScript analyzes control flow, narrows ambiguous types, and enforces function contracts.
+- **Day 08**: Union types (`|`), literal types, and type widening.
+- **Day 09**: Type narrowing via `typeof`, `instanceof`, `in`, and truthiness checks.
+- **Day 10**: Custom type predicates (`is`) and assertion functions (`asserts`).
+- **Day 11**: Discriminated unions, exhaustiveness checking with `never`.
+- **Day 12**: Function parameters, default values, rest parameters, and callback typing.
+- **Day 13**: Function overloading and explicit `this` typing.
+- **Day 14**: Interfaces, inheritance (`extends`), and multi-interface composition.
 
-### ⚡ Week 2: Functions, Unions, Narrowing & Interfaces
-- [ ] **Day 08**: [Union Types & Literal Types](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-08-unions-literals/README.md) `🟡 Intermediate` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-08-unions-literals/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-08-unions-literals/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-08-unions-literals/solution.ts)
-- [ ] **Day 09**: [Type Narrowing & Built-in Guards](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-09-type-narrowing/README.md) `🟡 Intermediate` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-09-type-narrowing/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-09-type-narrowing/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-09-type-narrowing/solution.ts)
-- [ ] **Day 10**: [Custom Type Predicates & Assertion Functions](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-10-type-predicates/README.md) `🟡 Intermediate` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-10-type-predicates/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-10-type-predicates/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-10-type-predicates/solution.ts)
-- [ ] **Day 11**: [Discriminated Unions & Exhaustiveness with never](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-11-discriminated-unions/README.md) `🟡 Intermediate` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-11-discriminated-unions/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-11-discriminated-unions/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-11-discriminated-unions/solution.ts)
-- [ ] **Day 12**: [Functions: Parameters, Defaults & Callbacks](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-12-functions-basics/README.md) `🟡 Intermediate` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-12-functions-basics/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-12-functions-basics/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-12-functions-basics/solution.ts)
-- [ ] **Day 13**: [Function Overloading & Explicit this](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-13-function-overloads/README.md) `🟡 Intermediate` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-13-function-overloads/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-13-function-overloads/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-13-function-overloads/solution.ts)
-- [ ] **Day 14**: [Interfaces, Inheritance & Multiple Extends](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-14-interfaces/README.md) `🟡 Intermediate` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-14-interfaces/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-14-interfaces/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-14-interfaces/solution.ts)
+### 🚀 Week 3: OOP, Enums, Generics & Milestone Cache (Days 15 - 21)
+Bridge object-oriented programming with TypeScript's type system and unlock generic programming.
+- **Day 15**: Interface vs Type Alias, declaration merging, and when to use each.
+- **Day 16**: Classes, access modifiers (`public`, `private`, `protected`), and parameter properties.
+- **Day 17**: Abstract classes, polymorphic dispatch, and the `override` keyword.
+- **Day 18**: Numeric and string Enums vs `as const` object dictionaries.
+- **Day 19**: Generics fundamentals (generic functions, generic interfaces, generic type aliases).
+- **Day 20**: Generic constraints (`extends`), multi-generics, and `keyof` lookups.
+- **Day 21**: Generic classes and building an production In-Memory Cache with TTL.
 
-### 🚀 Week 3: OOP, Enums, Generics & Milestone Cache
-- [ ] **Day 15**: [Interface vs Type Alias & Declaration Merging](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-15-interface-vs-type/README.md) `🟡 Intermediate` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-15-interface-vs-type/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-15-interface-vs-type/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-15-interface-vs-type/solution.ts)
-- [ ] **Day 16**: [Classes, Access Modifiers & Parameter Properties](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-16-classes-basics/README.md) `🟡 Intermediate` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-16-classes-basics/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-16-classes-basics/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-16-classes-basics/solution.ts)
-- [ ] **Day 17**: [Abstract Classes, override & Singletons](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-17-classes-advanced/README.md) `🟡 Intermediate` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-17-classes-advanced/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-17-classes-advanced/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-17-classes-advanced/solution.ts)
-- [ ] **Day 18**: [Enums vs as const Objects](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-18-enums/README.md) `🟡 Intermediate` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-18-enums/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-18-enums/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-18-enums/solution.ts)
-- [ ] **Day 19**: [Generics: The Core Superpower](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-19-generics-basics/README.md) `🟠 Advanced` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-19-generics-basics/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-19-generics-basics/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-19-generics-basics/solution.ts)
-- [ ] **Day 20**: [Generic Constraints & keyof Lookups](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-20-generics-constraints/README.md) `🟠 Advanced` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-20-generics-constraints/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-20-generics-constraints/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-20-generics-constraints/solution.ts)
-- [ ] **Day 21**: [Generic Classes & In-Memory Cache (Milestone)](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-21-generic-classes/README.md) `🟠 Advanced` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-21-generic-classes/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-21-generic-classes/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-21-generic-classes/solution.ts)
+### 🧠 Week 4: Advanced Type Gymnastics & Utility Types (Days 22 - 28)
+Step into advanced metaprogramming and transform types dynamically.
+- **Day 22**: `keyof`, `typeof`, indexed access types (`T[K]`).
+- **Day 23**: Mapped types, modifier flags (`+readonly`, `-?`), and key remapping (`as`).
+- **Day 24**: Template literal types, string pattern unions, and type-safe event buses.
+- **Day 25**: Conditional types (`T extends U ? X : Y`) and distributive unions.
+- **Day 26**: The `infer` keyword: extracting return types, promise unwrapping, and array elements.
+- **Day 27**: Built-in object utility types (`Partial`, `Required`, `Readonly`, `Record`, `Pick`, `Omit`).
+- **Day 28**: Built-in union and function utility types (`Exclude`, `Extract`, `NonNullable`, `ReturnType`, `Parameters`).
 
-### 🧠 Week 4: Type Gymnastics & Utility Types
-- [ ] **Day 22**: [Advanced: keyof, typeof & Indexed Access](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-22-keyof-indexed-access/README.md) `🟠 Advanced` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-22-keyof-indexed-access/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-22-keyof-indexed-access/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-22-keyof-indexed-access/solution.ts)
-- [ ] **Day 23**: [Mapped Types & Modifier Flags](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-23-mapped-types/README.md) `🔴 Expert` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-23-mapped-types/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-23-mapped-types/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-23-mapped-types/solution.ts)
-- [ ] **Day 24**: [Template Literal Types & Key Remapping](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-24-template-literals/README.md) `🔴 Expert` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-24-template-literals/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-24-template-literals/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-24-template-literals/solution.ts)
-- [ ] **Day 25**: [Conditional Types & Distributive Unions](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-25-conditional-types/README.md) `🔴 Expert` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-25-conditional-types/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-25-conditional-types/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-25-conditional-types/solution.ts)
-- [ ] **Day 26**: [The infer Keyword & Type Extraction](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-26-infer-keyword/README.md) `🔴 Expert` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-26-infer-keyword/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-26-infer-keyword/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-26-infer-keyword/solution.ts)
-- [ ] **Day 27**: [Utility Types Masterclass (Part 1)](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-27-utility-types-part1/README.md) `🟠 Advanced` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-27-utility-types-part1/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-27-utility-types-part1/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-27-utility-types-part1/solution.ts)
-- [ ] **Day 28**: [Utility Types Masterclass (Part 2)](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-28-utility-types-part2/README.md) `🟠 Advanced` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-28-utility-types-part2/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-28-utility-types-part2/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-28-utility-types-part2/solution.ts)
-
-### 🏆 Week 5: Async Systems, Tooling & Capstone Engine
-- [ ] **Day 29**: [Asynchronous TS & Safe Error Handling](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-29-async-error-handling/README.md) `🟠 Advanced` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-29-async-error-handling/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-29-async-error-handling/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-29-async-error-handling/solution.ts)
-- [ ] **Day 30**: [Production Tooling & Final Capstone Project](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-30-production-tooling/README.md) `🔴 Expert` • [Lesson](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-30-production-tooling/lesson.ts) • [Exercise](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-30-production-tooling/exercise.ts) • [Solution](file:///c:/Users/user/Desktop/Typescript-Tutor/src/day-30-production-tooling/solution.ts)
+### 🏆 Week 5: Async Systems, Tooling & Capstone Engine (Days 29 - 30)
+Ship production-grade TypeScript with safe async patterns and a complete reactive workflow engine.
+- **Day 29**: Async/Await typing, Promises, and the Result pattern for error handling without throw/catch.
+- **Day 30**: Strict `tsconfig.json` configurations, project references, and the Grand Capstone: an Event-Driven Workflow Engine.
 
 ---
 
-## 💡 Key Highlights & Code Teasers
+## 💡 Code Highlights & Patterns
 
-### 1. `any` vs `unknown`: Banishing Runtime Bugs
+### 1. Safe Narrowing: `unknown` vs `any`
 ```typescript
-// ❌ DANGEROUS: any completely turns off type checking
-let untrusted: any = "hello";
-untrusted.nonExistentMethod(); // Crashes at runtime!
+// ❌ any completely disables type checking!
+function badHandler(data: any) {
+  data.explode(); // Compiles fine, crashes runtime!
+}
 
-//  SAFE: unknown forces you to narrow before using
-let safe: unknown = "hello";
-if (typeof safe === "string") {
-  console.log(safe.toUpperCase()); // Guaranteed safe by compiler!
+//  unknown forces you to prove what type it is before operating:
+function safeHandler(data: unknown): string {
+  if (typeof data === "string") {
+    return data.toUpperCase();
+  }
+  if (typeof data === "number") {
+    return data.toFixed(2);
+  }
+  return "Unsupported type";
 }
 ```
 
-### 2. Discriminated Unions & Exhaustiveness Checking
+### 2. Discriminated Unions & Exhaustiveness
 ```typescript
-type Result<T> =
+type ApiResponse<T> =
   | { status: "success"; data: T }
-  | { status: "error"; error: string };
+  | { status: "error"; message: string }
+  | { status: "loading" };
 
-function render(res: Result<string>): string {
+function handleResponse<T>(res: ApiResponse<T>): string {
   switch (res.status) {
-    case "success": return res.data;
-    case "error": return res.error;
+    case "success":
+      return `Loaded: ${JSON.stringify(res.data)}`;
+    case "error":
+      return `Error: ${res.message}`;
+    case "loading":
+      return "Fetching data...";
     default: {
-      const _unreachable: never = res; // Compile error if new variant added!
-      throw new Error("Unhandled response");
+      const _unreachable: never = res; // Ensures compile-time exhaustiveness!
+      throw new Error(`Unhandled case: ${_unreachable}`);
     }
   }
 }
 ```
 
-### 3. The Power of `keyof` and Generics
+### 3. Generic Constraints with `keyof`
 ```typescript
-function getProp<T, K extends keyof T>(obj: T, key: K): T[K] {
-  return obj[key];
+function getProperty<T, K extends keyof T>(entity: T, propertyName: K): T[K] {
+  return entity[propertyName];
 }
 
-const user = { name: "Ada", age: 36 };
-const name = getProp(user, "name"); // inferred accurately as string!
+const user = { id: 101, username: "alice", isActive: true };
+const name = getProperty(user, "username"); // Inferred strictly as string
 ```
 
 ---
 
-## 📜 Certificate of Completion
+## 📜 Certificate of Achievement
 
-Upon completing all 30 days and passing the automated verification tests (`npm test`), claim your certificate by filling in your details below:
+When you complete all 30 days and verify with `npm test`, you can celebrate your accomplishment!
 
-```markdown
+```text
 ==================================================================================
                        CERTIFICATE OF ACHIEVEMENT
                              This certifies that
@@ -161,24 +236,25 @@ Upon completing all 30 days and passing the automated verification tests (`npm t
 ==================================================================================
 ```
 
-Share your accomplishment on **GitHub**, **LinkedIn**, and **X (Twitter)** using `#30DaysOfTypeScript` `#TypeScriptTutor`!
+Share your milestone on [LinkedIn](https://linkedin.com), [X (Twitter)](https://twitter.com), and [GitHub](https://github.com) with the hashtags `#30DaysOfTypeScript` `#TypeScript` `#ZeroToHero`!
 
 ---
 
 ## 🤝 Contributing
 
-Contributions make the open-source community thrive!
-1. Fork the repo.
-2. Create your branch (`git checkout -b feature/CoolNewExercise`).
-3. Verify all tests pass (`npm test && npm run typecheck`).
-4. Commit your changes (`git commit -m 'feat: add exercise for Day 24'`).
-5. Open a Pull Request!
+Contributions are warmly welcomed! If you find a typo, have an idea for an additional exercise, or want to contribute a translation:
+1. Fork this repository.
+2. Create your feature branch (`git checkout -b feature/amazing-exercise`).
+3. Run `npm test` and `npm run typecheck` to verify your changes.
+4. Commit your changes (`git commit -m 'feat: add exercise for Day 12'`).
+5. Push to the branch (`git push origin feature/amazing-exercise`).
+6. Open a Pull Request.
 
 ---
 
 ## 📄 License
 
-Distributed under the **MIT License**. See [LICENSE](file:///c:/Users/user/Desktop/Typescript-Tutor/LICENSE) for more information.
+This project is open-source and released under the [MIT License](LICENSE).
 
 <p align="center">
   <b>Happy Type-Safe Coding! 🚀</b><br>

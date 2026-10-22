@@ -1,7 +1,8 @@
 {
-  "include": ["src"],
+  "include": ["src/**/*", "*_Day_*/**/*", "data/**/*"],
+  "exclude": ["node_modules", "build", "scripts"],
   "compilerOptions": {
-    "rootDir": "./src",
+    "rootDir": ".",
     "outDir": "./build",
     "module": "nodenext",
     "moduleResolution": "nodenext",
