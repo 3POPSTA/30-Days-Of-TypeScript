@@ -18,38 +18,38 @@
 
 ---
 
-| # Day | Topics | Runnable Lesson | Multi-Tier Exercises | Verified Solution |
-| :---: | :------------------------------------------------------------------------------------------------------------------ | :-------------: | :------------------: | :---------------: |
-| 01 | [Introduction & Getting Started](./01_Day_Introduction/01_day_introduction.md) | [lesson.ts](./01_Day_Introduction/lesson.ts) | [exercise.ts](./01_Day_Introduction/exercise.ts) | [solution.ts](./01_Day_Introduction/solution.ts) |
-| 02 | [Primitive Data Types & Type Annotations](./02_Day_Primitive_types/02_day_primitive_types.md) | [lesson.ts](./02_Day_Primitive_types/lesson.ts) | [exercise.ts](./02_Day_Primitive_types/exercise.ts) | [solution.ts](./02_Day_Primitive_types/solution.ts) |
-| 03 | [Special Types: any, unknown, never, void](./03_Day_Special_types/03_day_special_types.md) | [lesson.ts](./03_Day_Special_types/lesson.ts) | [exercise.ts](./03_Day_Special_types/exercise.ts) | [solution.ts](./03_Day_Special_types/solution.ts) |
-| 04 | [Arrays, Readonly Arrays & Matrices](./04_Day_Arrays/04_day_arrays.md) | [lesson.ts](./04_Day_Arrays/lesson.ts) | [exercise.ts](./04_Day_Arrays/exercise.ts) | [solution.ts](./04_Day_Arrays/solution.ts) |
-| 05 | [Tuples, Labeled Tuples & as const](./05_Day_Tuples/05_day_tuples.md) | [lesson.ts](./05_Day_Tuples/lesson.ts) | [exercise.ts](./05_Day_Tuples/exercise.ts) | [solution.ts](./05_Day_Tuples/solution.ts) |
-| 06 | [Object Types & Property Modifiers](./06_Day_Objects/06_day_objects.md) | [lesson.ts](./06_Day_Objects/lesson.ts) | [exercise.ts](./06_Day_Objects/exercise.ts) | [solution.ts](./06_Day_Objects/solution.ts) |
-| 07 | [Type Aliases & Intersection Types](./07_Day_Type_aliases/07_day_type_aliases.md) | [lesson.ts](./07_Day_Type_aliases/lesson.ts) | [exercise.ts](./07_Day_Type_aliases/exercise.ts) | [solution.ts](./07_Day_Type_aliases/solution.ts) |
-| 08 | [Union Types & Literal Types](./08_Day_Unions_and_literals/08_day_unions_and_literals.md) | [lesson.ts](./08_Day_Unions_and_literals/lesson.ts) | [exercise.ts](./08_Day_Unions_and_literals/exercise.ts) | [solution.ts](./08_Day_Unions_and_literals/solution.ts) |
-| 09 | [Type Narrowing & Control Flow Analysis](./09_Day_Type_narrowing/09_day_type_narrowing.md) | [lesson.ts](./09_Day_Type_narrowing/lesson.ts) | [exercise.ts](./09_Day_Type_narrowing/exercise.ts) | [solution.ts](./09_Day_Type_narrowing/solution.ts) |
-| 10 | [Type Predicates & Custom Type Guards](./10_Day_Type_predicates/10_day_type_predicates.md) | [lesson.ts](./10_Day_Type_predicates/lesson.ts) | [exercise.ts](./10_Day_Type_predicates/exercise.ts) | [solution.ts](./10_Day_Type_predicates/solution.ts) |
-| 11 | [Discriminated Unions & Pattern Matching](./11_Day_Discriminated_unions/11_day_discriminated_unions.md) | [lesson.ts](./11_Day_Discriminated_unions/lesson.ts) | [exercise.ts](./11_Day_Discriminated_unions/exercise.ts) | [solution.ts](./11_Day_Discriminated_unions/solution.ts) |
-| 12 | [Functions, Parameters, Rest & Optional](./12_Day_Functions/12_day_functions.md) | [lesson.ts](./12_Day_Functions/lesson.ts) | [exercise.ts](./12_Day_Functions/exercise.ts) | [solution.ts](./12_Day_Functions/solution.ts) |
-| 13 | [Function Overloading & Signatures](./13_Day_Function_overloading/13_day_function_overloading.md) | [lesson.ts](./13_Day_Function_overloading/lesson.ts) | [exercise.ts](./13_Day_Function_overloading/exercise.ts) | [solution.ts](./13_Day_Function_overloading/solution.ts) |
-| 14 | [Interfaces & Inheritance](./14_Day_Interfaces/14_day_interfaces.md) | [lesson.ts](./14_Day_Interfaces/lesson.ts) | [exercise.ts](./14_Day_Interfaces/exercise.ts) | [solution.ts](./14_Day_Interfaces/solution.ts) |
-| 15 | [Interface vs Type & Declaration Merging](./15_Day_Interface_vs_type/15_day_interface_vs_type.md) | [lesson.ts](./15_Day_Interface_vs_type/lesson.ts) | [exercise.ts](./15_Day_Interface_vs_type/exercise.ts) | [solution.ts](./15_Day_Interface_vs_type/solution.ts) |
-| 16 | [Classes, Access Modifiers & readonly](./16_Day_Classes/16_day_classes.md) | [lesson.ts](./16_Day_Classes/lesson.ts) | [exercise.ts](./16_Day_Classes/exercise.ts) | [solution.ts](./16_Day_Classes/solution.ts) |
-| 17 | [Abstract Classes, override & Polymorphism](./17_Day_Abstract_classes/17_day_abstract_classes.md) | [lesson.ts](./17_Day_Abstract_classes/lesson.ts) | [exercise.ts](./17_Day_Abstract_classes/exercise.ts) | [solution.ts](./17_Day_Abstract_classes/solution.ts) |
-| 18 | [Enums & Object Literals as const](./18_Day_Enums/18_day_enums.md) | [lesson.ts](./18_Day_Enums/lesson.ts) | [exercise.ts](./18_Day_Enums/exercise.ts) | [solution.ts](./18_Day_Enums/solution.ts) |
-| 19 | [Generics: Functions, Interfaces & Types](./19_Day_Generics_basics/19_day_generics_basics.md) | [lesson.ts](./19_Day_Generics_basics/lesson.ts) | [exercise.ts](./19_Day_Generics_basics/exercise.ts) | [solution.ts](./19_Day_Generics_basics/solution.ts) |
-| 20 | [Generics Constraints & keyof Operator](./20_Day_Generics_constraints/20_day_generics_constraints.md) | [lesson.ts](./20_Day_Generics_constraints/lesson.ts) | [exercise.ts](./20_Day_Generics_constraints/exercise.ts) | [solution.ts](./20_Day_Generics_constraints/solution.ts) |
-| 21 | [Generic Classes & Data Structures](./21_Day_Generic_classes/21_day_generic_classes.md) | [lesson.ts](./21_Day_Generic_classes/lesson.ts) | [exercise.ts](./21_Day_Generic_classes/exercise.ts) | [solution.ts](./21_Day_Generic_classes/solution.ts) |
-| 22 | [Keyof, Indexed Access & typeof Queries](./22_Day_Keyof_and_indexed_access/22_day_keyof_and_indexed_access.md) | [lesson.ts](./22_Day_Keyof_and_indexed_access/lesson.ts) | [exercise.ts](./22_Day_Keyof_and_indexed_access/exercise.ts) | [solution.ts](./22_Day_Keyof_and_indexed_access/solution.ts) |
-| 23 | [Mapped Types & Key Remapping](./23_Day_Mapped_types/23_day_mapped_types.md) | [lesson.ts](./23_Day_Mapped_types/lesson.ts) | [exercise.ts](./23_Day_Mapped_types/exercise.ts) | [solution.ts](./23_Day_Mapped_types/solution.ts) |
-| 24 | [Template Literal Types & Event Strings](./24_Day_Template_literal_types/24_day_template_literal_types.md) | [lesson.ts](./24_Day_Template_literal_types/lesson.ts) | [exercise.ts](./24_Day_Template_literal_types/exercise.ts) | [solution.ts](./24_Day_Template_literal_types/solution.ts) |
-| 25 | [Conditional Types & Distributive Conditionals](./25_Day_Conditional_types/25_day_conditional_types.md) | [lesson.ts](./25_Day_Conditional_types/lesson.ts) | [exercise.ts](./25_Day_Conditional_types/exercise.ts) | [solution.ts](./25_Day_Conditional_types/solution.ts) |
-| 26 | [The infer Keyword & Unwrapping Types](./26_Day_The_infer_keyword/26_day_the_infer_keyword.md) | [lesson.ts](./26_Day_The_infer_keyword/lesson.ts) | [exercise.ts](./26_Day_The_infer_keyword/exercise.ts) | [solution.ts](./26_Day_The_infer_keyword/solution.ts) |
-| 27 | [Utility Types Part 1: Partial, Pick, Omit, etc.](./27_Day_Utility_types_part_1/27_day_utility_types_part_1.md) | [lesson.ts](./27_Day_Utility_types_part_1/lesson.ts) | [exercise.ts](./27_Day_Utility_types_part_1/exercise.ts) | [solution.ts](./27_Day_Utility_types_part_1/solution.ts) |
-| 28 | [Utility Types Part 2: Extract, Exclude, ReturnType, etc.](./28_Day_Utility_types_part_2/28_day_utility_types_part_2.md) | [lesson.ts](./28_Day_Utility_types_part_2/lesson.ts) | [exercise.ts](./28_Day_Utility_types_part_2/exercise.ts) | [solution.ts](./28_Day_Utility_types_part_2/solution.ts) |
-| 29 | [Async, Promises, and Robust Error Handling](./29_Day_Async_and_error_handling/29_day_async_and_error_handling.md) | [lesson.ts](./29_Day_Async_and_error_handling/lesson.ts) | [exercise.ts](./29_Day_Async_and_error_handling/exercise.ts) | [solution.ts](./29_Day_Async_and_error_handling/solution.ts) |
-| 30 | [Final Capstone: Event-Driven Workflow Engine](./30_Day_Final_capstone_project/30_day_final_capstone_project.md) | [lesson.ts](./30_Day_Final_capstone_project/lesson.ts) | [exercise.ts](./30_Day_Final_capstone_project/exercise.ts) | [solution.ts](./30_Day_Final_capstone_project/solution.ts) |
+| # Day | Topics | Runnable Lesson | In-Depth Examples & Solutions |
+| :---: | :------------------------------------------------------------------------------------------------------------------ | :-------------: | :---------------------------: |
+| 01 | [Introduction & Getting Started](./01_Day_Introduction/01_day_introduction.md) | [lesson.ts](./01_Day_Introduction/lesson.ts) | [10 Examples & Solutions](./01_Day_Introduction/01_day_introduction.md#-10-in-depth-practical-examples--solutions) |
+| 02 | [Primitive Data Types & Type Annotations](./02_Day_Primitive_types/02_day_primitive_types.md) | [lesson.ts](./02_Day_Primitive_types/lesson.ts) | [10 Examples & Solutions](./02_Day_Primitive_types/02_day_primitive_types.md#-10-in-depth-practical-examples--solutions) |
+| 03 | [Special Types: any, unknown, never, void](./03_Day_Special_types/03_day_special_types.md) | [lesson.ts](./03_Day_Special_types/lesson.ts) | [10 Examples & Solutions](./03_Day_Special_types/03_day_special_types.md#-10-in-depth-practical-examples--solutions) |
+| 04 | [Arrays, Readonly Arrays & Matrices](./04_Day_Arrays/04_day_arrays.md) | [lesson.ts](./04_Day_Arrays/lesson.ts) | [10 Examples & Solutions](./04_Day_Arrays/04_day_arrays.md#-10-in-depth-practical-examples--solutions) |
+| 05 | [Tuples, Labeled Tuples & as const](./05_Day_Tuples/05_day_tuples.md) | [lesson.ts](./05_Day_Tuples/lesson.ts) | [10 Examples & Solutions](./05_Day_Tuples/05_day_tuples.md#-10-in-depth-practical-examples--solutions) |
+| 06 | [Object Types & Property Modifiers](./06_Day_Objects/06_day_objects.md) | [lesson.ts](./06_Day_Objects/lesson.ts) | [10 Examples & Solutions](./06_Day_Objects/06_day_objects.md#-10-in-depth-practical-examples--solutions) |
+| 07 | [Type Aliases & Intersection Types](./07_Day_Type_aliases/07_day_type_aliases.md) | [lesson.ts](./07_Day_Type_aliases/lesson.ts) | [10 Examples & Solutions](./07_Day_Type_aliases/07_day_type_aliases.md#-10-in-depth-practical-examples--solutions) |
+| 08 | [Union Types & Literal Types](./08_Day_Unions_and_literals/08_day_unions_and_literals.md) | [lesson.ts](./08_Day_Unions_and_literals/lesson.ts) | [10 Examples & Solutions](./08_Day_Unions_and_literals/08_day_unions_and_literals.md#-10-in-depth-practical-examples--solutions) |
+| 09 | [Type Narrowing & Control Flow Analysis](./09_Day_Type_narrowing/09_day_type_narrowing.md) | [lesson.ts](./09_Day_Type_narrowing/lesson.ts) | [10 Examples & Solutions](./09_Day_Type_narrowing/09_day_type_narrowing.md#-10-in-depth-practical-examples--solutions) |
+| 10 | [Type Predicates & Custom Type Guards](./10_Day_Type_predicates/10_day_type_predicates.md) | [lesson.ts](./10_Day_Type_predicates/lesson.ts) | [10 Examples & Solutions](./10_Day_Type_predicates/10_day_type_predicates.md#-10-in-depth-practical-examples--solutions) |
+| 11 | [Discriminated Unions & Pattern Matching](./11_Day_Discriminated_unions/11_day_discriminated_unions.md) | [lesson.ts](./11_Day_Discriminated_unions/lesson.ts) | [10 Examples & Solutions](./11_Day_Discriminated_unions/11_day_discriminated_unions.md#-10-in-depth-practical-examples--solutions) |
+| 12 | [Functions, Parameters, Rest & Optional](./12_Day_Functions/12_day_functions.md) | [lesson.ts](./12_Day_Functions/lesson.ts) | [10 Examples & Solutions](./12_Day_Functions/12_day_functions.md#-10-in-depth-practical-examples--solutions) |
+| 13 | [Function Overloading & Signatures](./13_Day_Function_overloading/13_day_function_overloading.md) | [lesson.ts](./13_Day_Function_overloading/lesson.ts) | [10 Examples & Solutions](./13_Day_Function_overloading/13_day_function_overloading.md#-10-in-depth-practical-examples--solutions) |
+| 14 | [Interfaces & Inheritance](./14_Day_Interfaces/14_day_interfaces.md) | [lesson.ts](./14_Day_Interfaces/lesson.ts) | [10 Examples & Solutions](./14_Day_Interfaces/14_day_interfaces.md#-10-in-depth-practical-examples--solutions) |
+| 15 | [Interface vs Type & Declaration Merging](./15_Day_Interface_vs_type/15_day_interface_vs_type.md) | [lesson.ts](./15_Day_Interface_vs_type/lesson.ts) | [10 Examples & Solutions](./15_Day_Interface_vs_type/15_day_interface_vs_type.md#-10-in-depth-practical-examples--solutions) |
+| 16 | [Classes, Access Modifiers & readonly](./16_Day_Classes/16_day_classes.md) | [lesson.ts](./16_Day_Classes/lesson.ts) | [10 Examples & Solutions](./16_Day_Classes/16_day_classes.md#-10-in-depth-practical-examples--solutions) |
+| 17 | [Abstract Classes, override & Polymorphism](./17_Day_Abstract_classes/17_day_abstract_classes.md) | [lesson.ts](./17_Day_Abstract_classes/lesson.ts) | [10 Examples & Solutions](./17_Day_Abstract_classes/17_day_abstract_classes.md#-10-in-depth-practical-examples--solutions) |
+| 18 | [Enums & Object Literals as const](./18_Day_Enums/18_day_enums.md) | [lesson.ts](./18_Day_Enums/lesson.ts) | [10 Examples & Solutions](./18_Day_Enums/18_day_enums.md#-10-in-depth-practical-examples--solutions) |
+| 19 | [Generics: Functions, Interfaces & Types](./19_Day_Generics_basics/19_day_generics_basics.md) | [lesson.ts](./19_Day_Generics_basics/lesson.ts) | [10 Examples & Solutions](./19_Day_Generics_basics/19_day_generics_basics.md#-10-in-depth-practical-examples--solutions) |
+| 20 | [Generics Constraints & keyof Operator](./20_Day_Generics_constraints/20_day_generics_constraints.md) | [lesson.ts](./20_Day_Generics_constraints/lesson.ts) | [10 Examples & Solutions](./20_Day_Generics_constraints/20_day_generics_constraints.md#-10-in-depth-practical-examples--solutions) |
+| 21 | [Generic Classes & Data Structures](./21_Day_Generic_classes/21_day_generic_classes.md) | [lesson.ts](./21_Day_Generic_classes/lesson.ts) | [10 Examples & Solutions](./21_Day_Generic_classes/21_day_generic_classes.md#-10-in-depth-practical-examples--solutions) |
+| 22 | [Keyof, Indexed Access & typeof Queries](./22_Day_Keyof_and_indexed_access/22_day_keyof_and_indexed_access.md) | [lesson.ts](./22_Day_Keyof_and_indexed_access/lesson.ts) | [10 Examples & Solutions](./22_Day_Keyof_and_indexed_access/22_day_keyof_and_indexed_access.md#-10-in-depth-practical-examples--solutions) |
+| 23 | [Mapped Types & Key Remapping](./23_Day_Mapped_types/23_day_mapped_types.md) | [lesson.ts](./23_Day_Mapped_types/lesson.ts) | [10 Examples & Solutions](./23_Day_Mapped_types/23_day_mapped_types.md#-10-in-depth-practical-examples--solutions) |
+| 24 | [Template Literal Types & Event Strings](./24_Day_Template_literal_types/24_day_template_literal_types.md) | [lesson.ts](./24_Day_Template_literal_types/lesson.ts) | [10 Examples & Solutions](./24_Day_Template_literal_types/24_day_template_literal_types.md#-10-in-depth-practical-examples--solutions) |
+| 25 | [Conditional Types & Distributive Conditionals](./25_Day_Conditional_types/25_day_conditional_types.md) | [lesson.ts](./25_Day_Conditional_types/lesson.ts) | [10 Examples & Solutions](./25_Day_Conditional_types/25_day_conditional_types.md#-10-in-depth-practical-examples--solutions) |
+| 26 | [The infer Keyword & Unwrapping Types](./26_Day_The_infer_keyword/26_day_the_infer_keyword.md) | [lesson.ts](./26_Day_The_infer_keyword/lesson.ts) | [10 Examples & Solutions](./26_Day_The_infer_keyword/26_day_the_infer_keyword.md#-10-in-depth-practical-examples--solutions) |
+| 27 | [Utility Types Part 1: Partial, Pick, Omit, etc.](./27_Day_Utility_types_part_1/27_day_utility_types_part_1.md) | [lesson.ts](./27_Day_Utility_types_part_1/lesson.ts) | [10 Examples & Solutions](./27_Day_Utility_types_part_1/27_day_utility_types_part_1.md#-10-in-depth-practical-examples--solutions) |
+| 28 | [Utility Types Part 2: Extract, Exclude, ReturnType, etc.](./28_Day_Utility_types_part_2/28_day_utility_types_part_2.md) | [lesson.ts](./28_Day_Utility_types_part_2/lesson.ts) | [10 Examples & Solutions](./28_Day_Utility_types_part_2/28_day_utility_types_part_2.md#-10-in-depth-practical-examples--solutions) |
+| 29 | [Async, Promises, and Robust Error Handling](./29_Day_Async_and_error_handling/29_day_async_and_error_handling.md) | [lesson.ts](./29_Day_Async_and_error_handling/lesson.ts) | [10 Examples & Solutions](./29_Day_Async_and_error_handling/29_day_async_and_error_handling.md#-10-in-depth-practical-examples--solutions) |
+| 30 | [Final Capstone: Event-Driven Workflow Engine](./30_Day_Final_capstone_project/30_day_final_capstone_project.md) | [lesson.ts](./30_Day_Final_capstone_project/lesson.ts) | [10 Examples & Solutions](./30_Day_Final_capstone_project/30_day_final_capstone_project.md#-10-in-depth-practical-examples--solutions) |
 
 ---
 
@@ -61,12 +61,9 @@
 
 This repository provides:
 1. **Clear, Jargon-Free Explanations**: Deep dives into the "why" and "how" behind TypeScript's structural type system.
-2. **Runnable Lesson Files**: Real executable code for every single day.
-3. **Three-Tier Exercises**:
-   - 🟢 **Level 1**: Syntax warmups & core mechanics.
-   - 🟡 **Level 2**: Realistic application logic & practical algorithms.
-   - 🔴 **Level 3**: Advanced type gymnastics, edge cases, and architectures.
-4. **Instant Automated Verification**: Run `npm test` or `npx tsx <Folder>/exercise.ts` to get immediate feedback.
+2. **Runnable Lesson Files**: Real executable code for every single day (`npm run day:XX`).
+3. **10 In-Depth Practical Examples & Solutions Per Day**: Every single day includes 10 comprehensive, real-world examples with complete solutions and deep-dive technical explanations right in the guide.
+4. **Instant Automated Lesson Verification**: Run `npm test` to verify all 30 days of lessons execute cleanly.
 5. **Interactive Dashboard**: Run `npm start` for a visual overview of your journey.
 
 ---
@@ -99,13 +96,9 @@ npm run day:15    # Runs Day 15
 npm run day:30    # Runs Day 30
 ```
 
-### 5. Verifying Your Exercises
-Every day folder has an `exercise.ts` file with automated unit assertions:
+### 5. Automated Verification
+Verify that all 30 days of lessons execute cleanly:
 ```bash
-# Verify an individual day
-npx tsx 01_Day_Introduction/exercise.ts
-
-# Verify ALL 30 days at once
 npm test
 ```
 
@@ -242,12 +235,12 @@ Share your milestone on [LinkedIn](https://linkedin.com), [X (Twitter)](https://
 
 ## 🤝 Contributing
 
-Contributions are warmly welcomed! If you find a typo, have an idea for an additional exercise, or want to contribute a translation:
+Contributions are warmly welcomed! If you find a typo, have an idea for an additional example, or want to contribute a translation:
 1. Fork this repository.
-2. Create your feature branch (`git checkout -b feature/amazing-exercise`).
+2. Create your feature branch (`git checkout -b feature/amazing-example`).
 3. Run `npm test` and `npm run typecheck` to verify your changes.
-4. Commit your changes (`git commit -m 'feat: add exercise for Day 12'`).
-5. Push to the branch (`git push origin feature/amazing-exercise`).
+4. Commit your changes (`git commit -m 'feat: add example for Day 12'`).
+5. Push to the branch (`git push origin feature/amazing-example`).
 6. Open a Pull Request.
 
 ---

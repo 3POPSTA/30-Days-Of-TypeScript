@@ -15,10 +15,17 @@
     - [3. Literal Widening](#3-literal-widening)
   - [💻 Runnable Lesson Demonstration](#-runnable-lesson-demonstration)
   - [⚠️ Common Pitfalls & Pro Tips](#️-common-pitfalls--pro-tips)
-  - [🏋️ Day 08: Exercises](#️-day-08-exercises)
-    - [Exercise: Level 1](#exercise-level-1)
-    - [Exercise: Level 2](#exercise-level-2)
-    - [Exercise: Level 3](#exercise-level-3)
+  - [💡 10 In-Depth Practical Examples & Solutions](#-10-in-depth-practical-examples--solutions)
+    - [Example 1: String Literal Unions for Application Status](#example-1-string-literal-unions-for-application-status)
+    - [Example 2: Numeric Literal Unions for Dice Rolls or Priority](#example-2-numeric-literal-unions-for-dice-rolls-or-priority)
+    - [Example 3: Mixed Primitive Unions (string | number)](#example-3-mixed-primitive-unions-string-number)
+    - [Example 4: Literal Narrowing with Strict Equality](#example-4-literal-narrowing-with-strict-equality)
+    - [Example 5: Boolean Literal Unions for Strict Feature Flags](#example-5-boolean-literal-unions-for-strict-feature-flags)
+    - [Example 6: Union of Diverse Object Shapes](#example-6-union-of-diverse-object-shapes)
+    - [Example 7: HTTP Request Method Validator](#example-7-http-request-method-validator)
+    - [Example 8: Type-Safe CSS Dimension Units](#example-8-type-safe-css-dimension-units)
+    - [Example 9: Flexible Argument Normalizer Function](#example-9-flexible-argument-normalizer-function)
+    - [Example 10: Event Action Payload Dispatcher](#example-10-event-action-payload-dispatcher)
   - [🎉 Congratulations](#-congratulations)
 
 ---
@@ -35,7 +42,7 @@ By the end of today, you will be able to:
 - [ ] Master **Union Types (|)**
 - [ ] Master **Literal Types**
 - [ ] Master **Literal Widening**
-- [ ] Complete all Level 1, Level 2, and Level 3 exercises with automated tests passing (`npm test`).
+- [ ] Study and implement the 10 in-depth practical examples with complete solutions.
 
 ---
 
@@ -92,29 +99,248 @@ console.log(handleRequest("GET", "/api/users"));
 
 ---
 
-## 🏋️ Day 08: Exercises
+## 💡 10 In-Depth Practical Examples & Solutions
 
-### Exercise: Level 1
-1. Format status string into user badge color: 'success' -> 'green', 'warning' -> 'yellow', 'error' -> 'red'
+### Example 1: String Literal Unions for Application Status
+**Problem / Scenario:**
+Constrain an order state machine to only allowed string literals.
 
-### Exercise: Level 2
-1. Perform safe arithmetic calculation with operation literal 'add' | 'sub' | 'mul' | 'div'
+**Solution:**
+```typescript
+type OrderStatus = "draft" | "submitted" | "processing" | "shipped" | "delivered";
 
-### Exercise: Level 3
-1. Validate network port is either number or port string alias 'http' (80) or 'https' (443)
+function canCancelOrder(status: OrderStatus): boolean {
+  return status === "draft" || status === "submitted";
+}
+
+console.log("Can cancel submitted order?", canCancelOrder("submitted"));
+console.log("Can cancel shipped order?", canCancelOrder("shipped"));
+```
+
+**Explanation & Output:**
+String literal unions restrict variables to a closed set of exact string values, eliminating typos.
 
 ---
 
-## 🧪 Verifying Your Work
-Run the automated test for Day 08:
-```bash
-npx tsx 08_Day_Unions_and_literals/exercise.ts
+### Example 2: Numeric Literal Unions for Dice Rolls or Priority
+**Problem / Scenario:**
+Model strict priority levels (1, 2, 3) or a dice roll (1 through 6).
+
+**Solution:**
+```typescript
+type PriorityLevel = 1 | 2 | 3;
+
+function getSlaHours(priority: PriorityLevel): number {
+  switch (priority) {
+    case 1: return 2;   // Critical: 2h
+    case 2: return 8;   // High: 8h
+    case 3: return 24;  // Normal: 24h
+  }
+}
+
+console.log("SLA for priority 1:", getSlaHours(1), "hours");
 ```
 
-Or verify all 30 days:
-```bash
-npm test
+**Explanation & Output:**
+Numeric literal types ensure functions only accept exact numeric values, preventing out-of-range arguments.
+
+---
+
+### Example 3: Mixed Primitive Unions (string | number)
+**Problem / Scenario:**
+Handle identifiers that may arrive as numeric IDs or alphanumeric UUIDs.
+
+**Solution:**
+```typescript
+type EntityId = string | number;
+
+function formatId(id: EntityId): string {
+  if (typeof id === "number") {
+    return `ID#${id.toString().padStart(6, "0")}`;
+  }
+  return `UUID:${id.toLowerCase()}`;
+}
+
+console.log(formatId(42));
+console.log(formatId("A1B2C3D4"));
 ```
+
+**Explanation & Output:**
+TypeScript requires narrowing union types with runtime checks like 'typeof' before calling type-specific methods.
+
+---
+
+### Example 4: Literal Narrowing with Strict Equality
+**Problem / Scenario:**
+Narrow down union variants inside equality check branches.
+
+**Solution:**
+```typescript
+type Theme = "light" | "dark" | "system";
+
+function getBackgroundColor(theme: Theme, prefersDark: boolean): string {
+  if (theme === "system") {
+    return prefersDark ? "#121212" : "#ffffff";
+  }
+  return theme === "dark" ? "#1e1e1e" : "#f5f5f5";
+}
+
+console.log("Dark Theme Color:", getBackgroundColor("dark", false));
+console.log("System Theme Color:", getBackgroundColor("system", true));
+```
+
+**Explanation & Output:**
+Control flow analysis narrows literal unions step-by-step as equality checks eliminate possibilities.
+
+---
+
+### Example 5: Boolean Literal Unions for Strict Feature Flags
+**Problem / Scenario:**
+Define feature toggles that only accept exact boolean literals.
+
+**Solution:**
+```typescript
+type MaintenanceMode = false; // Strictly disabled in production
+type BetaAllowed = true | false;
+
+function launchApp(maintenance: MaintenanceMode, beta: BetaAllowed): void {
+  console.log("App running in production. Beta enabled?", beta);
+}
+
+launchApp(false, true);
+```
+
+**Explanation & Output:**
+Boolean literals 'true' and 'false' can be used as distinct types to enforce invariant states.
+
+---
+
+### Example 6: Union of Diverse Object Shapes
+**Problem / Scenario:**
+Represent multiple event structures using a union of object types.
+
+**Solution:**
+```typescript
+type MouseClickEvent = { type: "click"; x: number; y: number };
+type KeyPressEvent = { type: "keypress"; key: string; ctrlKey: boolean };
+
+type UIEvent = MouseClickEvent | KeyPressEvent;
+
+function logUIEvent(event: UIEvent): void {
+  if (event.type === "click") {
+    console.log(`Clicked at (${event.x}, ${event.y})`);
+  } else {
+    console.log(`Key pressed: ${event.key} (CTRL: ${event.ctrlKey})`);
+  }
+}
+
+logUIEvent({ type: "click", x: 120, y: 350 });
+```
+
+**Explanation & Output:**
+Unions of object shapes allow processing different data payloads safely through common tag properties.
+
+---
+
+### Example 7: HTTP Request Method Validator
+**Problem / Scenario:**
+Accept only valid standard HTTP methods in an API client.
+
+**Solution:**
+```typescript
+type HttpMethod = "GET" | "POST" | "PUT" | "DELETE" | "PATCH";
+
+function sendRequest(url: string, method: HttpMethod): void {
+  console.log(`[${method}] Sending request to: ${url}`);
+}
+
+sendRequest("/api/v1/users", "GET");
+sendRequest("/api/v1/users/42", "DELETE");
+```
+
+**Explanation & Output:**
+Restricting arguments to literal unions prevents invalid method names from ever reaching network sockets.
+
+---
+
+### Example 8: Type-Safe CSS Dimension Units
+**Problem / Scenario:**
+Create a flexible CSS dimension helper that accepts raw pixel numbers or string units.
+
+**Solution:**
+```typescript
+type CssDimension = number | `${number}px` | `${number}rem` | `${number}%`;
+
+function formatDimension(dim: CssDimension): string {
+  if (typeof dim === "number") {
+    return `${dim}px`;
+  }
+  return dim;
+}
+
+console.log(formatDimension(16));
+console.log(formatDimension("2.5rem"));
+console.log(formatDimension("100%"));
+```
+
+**Explanation & Output:**
+Template literal types combined with primitive unions provide compiler-validated syntax for CSS values.
+
+---
+
+### Example 9: Flexible Argument Normalizer Function
+**Problem / Scenario:**
+Write a function that normalizes a string or string array into a sanitized array.
+
+**Solution:**
+```typescript
+function normalizeTags(input: string | string[]): string[] {
+  if (typeof input === "string") {
+    return input.split(",").map(t => t.trim().toLowerCase());
+  }
+  return input.map(t => t.trim().toLowerCase());
+}
+
+console.log("Normalized CSV:", normalizeTags("React, TypeScript, Redux"));
+console.log("Normalized Array:", normalizeTags([" NodeJS ", "Docker "]));
+```
+
+**Explanation & Output:**
+Accepting a union like 'string | string[]' gives callers ergonomic flexibility while keeping internal logic type-safe.
+
+---
+
+### Example 10: Event Action Payload Dispatcher
+**Problem / Scenario:**
+Model multiple command actions and handle them with strict literal matching.
+
+**Solution:**
+```typescript
+type Action =
+  | { action: "SET_THEME"; payload: "light" | "dark" }
+  | { action: "SET_VOLUME"; payload: number }
+  | { action: "RESET_ALL" };
+
+function dispatch(action: Action): void {
+  switch (action.action) {
+    case "SET_THEME":
+      console.log("Theme set to:", action.payload);
+      break;
+    case "SET_VOLUME":
+      console.log("Volume adjusted to:", action.payload);
+      break;
+    case "RESET_ALL":
+      console.log("Settings reset to defaults");
+      break;
+  }
+}
+
+dispatch({ action: "SET_THEME", payload: "dark" });
+dispatch({ action: "RESET_ALL" });
+```
+
+**Explanation & Output:**
+Unions of actions provide the foundation for robust, predictable state management architectures.
 
 ---
 

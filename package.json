@@ -1,7 +1,7 @@
 {
   "name": "30-days-of-typescript",
   "version": "1.0.0",
-  "description": "30 Days of TypeScript: An interactive Zero to Hero challenge with lessons, tiered exercises, solutions, and production best practices",
+  "description": "30 Days of TypeScript: An interactive Zero to Hero guide with comprehensive lessons, in-depth practical examples, solutions, and production best practices",
   "type": "module",
   "main": "src/index.ts",
   "scripts": {
@@ -49,7 +49,7 @@
     "zero-to-hero",
     "learn-typescript",
     "interactive",
-    "exercises",
+    "examples",
     "generics",
     "type-gymnastics",
     "utility-types"
