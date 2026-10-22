@@ -3,23 +3,12 @@ node_modules/
 .npm/
 .yarn/
 .pnpm-store/
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
 
 # Build outputs
 /build/
 /dist/
 /out/
 *.tsbuildinfo
-*.js
-*.d.ts
-*.js.map
-*.d.ts.map
-
-# But don't ignore source files (keep .ts, .tsx, etc.)
-!*.ts
-!*.tsx
 
 # Environment files
 .env
@@ -54,25 +43,6 @@ coverage/
 .nyc_output/
 *.lcov
 /test-results/
-
-# Build tools
-.cache/
-.parcel-cache/
-.next/
-.nuxt/
-.output/
-dist/
-
-# TypeScript specific
-*.tsbuildinfo
-*.tgz
-
-# Misc
-*.tmp
-*.temp
-*.bak
-*.swp
-*.swo
 
 # OS generated files
 .DS_Store
