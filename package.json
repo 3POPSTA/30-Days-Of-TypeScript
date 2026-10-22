@@ -85,7 +85,7 @@
     "type-gymnastics",
     "utility-types"
   ],
-  "author": "TypeScript Tutor Community",
+  "author": "ACLL (3POPSTA)",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^26.6.5",
