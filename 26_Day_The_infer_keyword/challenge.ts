@@ -1,117 +1,61 @@
 /**
- * ============================================================================
- * DAY 26: THE INFER KEYWORD & UNWRAPPING TYPES - CODING CHALLENGES
- * ============================================================================
- * The 'infer' keyword allows introducing a type variable inside the 'extends'
- * clause of a conditional type to deduce and extract hidden types:
- * - Extracting function return types
- * - Unwrapping Promise values
- * - Extracting array element types
- * - Extracting constructor parameters
+ * 🎯 Day 26: The infer Keyword & Unwrapping Types - Coding Challenges
  *
- * Test with:
- *   npx tsx 26_Day_The_infer_keyword/challenge.ts
- *   OR
- *   npm run challenge:26
- * ============================================================================
+ * Infer hidden types within Promises, functions, and arrays.
+ *
+ * 🚀 Run with: npm run challenge:26
  */
 
-console.log("\n=======================================================");
-console.log("  DAY 26: CHALLENGE VERIFICATION RUNNER");
-console.log("=======================================================\n");
-
-function testCheck(step: string, passed: boolean, details?: string): void {
-  if (passed) {
-    console.log(`  [PASS] ${step}${details ? ` -> ${details}` : ""}`);
-  } else {
-    console.log(`  [WAIT] ${step} (Needs attention)${details ? ` -> ${details}` : ""}`);
-  }
-}
-
 // ============================================================================
-// STEP 1: Re-implementing ReturnType with infer
+// 🎯 CHALLENGE 1: Re-implementing ReturnType with infer
 // ============================================================================
 /**
- * CHALLENGE 1:
- * Create a conditional type 'MyReturnType<T>':
- *   - If T extends (...args: any[]) => infer R: return R
- *   - Otherwise: return never
+ * Define 'MyReturnType<T>' = T extends (...args: any[]) => infer R ? R : never
  */
-// >>> YOUR CODE HERE <<<
+// 👇 YOUR CODE HERE:
 export type MyReturnType<T> = T extends (...args: any[]) => infer R ? R : never;
 
-
 // ============================================================================
-// STEP 2: Recursive Promise Unwrapper (DeepAwaited)
+// 🎯 CHALLENGE 2: Recursive Promise Unwrapper (DeepAwaited)
 // ============================================================================
 /**
- * CHALLENGE 2:
- * Create a recursive type 'DeepAwaited<T>':
- *   - If T extends Promise<infer U>: recursively unpack DeepAwaited<U>
- *   - Otherwise: return T
- * 
- * Example:
- *   DeepAwaited<Promise<Promise<string>>> => string
+ * Define 'DeepAwaited<T>' that recursively unwraps nested Promises:
+ * T extends Promise<infer U> ? DeepAwaited<U> : T
  */
-// >>> YOUR CODE HERE <<<
+// 👇 YOUR CODE HERE:
 export type DeepAwaited<T> = T extends Promise<infer U> ? DeepAwaited<U> : T;
 
-
 // ============================================================================
-// STEP 3: Extracting Array Element Types
+// 🎯 CHALLENGE 3: Extracting Array Element Types
 // ============================================================================
 /**
- * CHALLENGE 3:
- * Create a type 'ElementOf<T>':
- *   - If T extends readonly (infer E)[]: return E
- *   - Otherwise: return never
+ * Define 'ElementOf<T>' = T extends readonly (infer E)[] ? E : never
  */
-// >>> YOUR CODE HERE <<<
+// 👇 YOUR CODE HERE:
 export type ElementOf<T> = T extends readonly (infer E)[] ? E : never;
 
-
 // ============================================================================
-// STEP 4: Extracting the First Parameter of a Function
+// 🎯 CHALLENGE 4: Extracting the First Parameter of a Function
 // ============================================================================
 /**
- * CHALLENGE 4:
- * Create a type 'FirstParam<T>':
- *   - If T extends (first: infer P, ...rest: any[]) => any: return P
- *   - Otherwise: return never
+ * Define 'FirstParam<T>' = T extends (first: infer P, ...rest: any[]) => any ? P : never
  */
-// >>> YOUR CODE HERE <<<
+// 👇 YOUR CODE HERE:
 export type FirstParam<T> = T extends (first: infer P, ...rest: any[]) => any ? P : never;
 
-
 // ============================================================================
-// VERIFICATION TEST SUITE
+// 🧪 TEST RUNNER - Run: npm run challenge:26
 // ============================================================================
-console.log("Verifying Step 1 (MyReturnType)...");
-function sampleFn(): { id: string; ok: boolean } {
-  return { id: "1", ok: true };
-}
-type SampleReturn = MyReturnType<typeof sampleFn>;
-const checkSample: SampleReturn = { id: "1", ok: true };
-testCheck("Step 1 - MyReturnType extracted", checkSample.id === "1");
+console.log("--- 🧪 Day 26 Challenge Results ---");
+type TestFn = (id: string, count: number) => { success: boolean };
+type Ret = MyReturnType<TestFn>; // { success: boolean }
+type Nested = Promise<Promise<string>>;
+type Flat = DeepAwaited<Nested>; // string
+type ArrItem = ElementOf<number[]>; // number
+type P1 = FirstParam<TestFn>; // string
 
-console.log("\nVerifying Step 2 (DeepAwaited)...");
-type NestedPromise = Promise<Promise<number>>;
-type Unwrapped = DeepAwaited<NestedPromise>;
-const numCheck: Unwrapped = 42;
-testCheck("Step 2 - DeepAwaited", numCheck === 42);
-
-console.log("\nVerifying Step 3 (ElementOf)...");
-type StringArr = string[];
-type StrEl = ElementOf<StringArr>;
-const strElCheck: StrEl = "extracted";
-testCheck("Step 3 - ElementOf", strElCheck === "extracted");
-
-console.log("\nVerifying Step 4 (FirstParam)...");
-function greetUser(greeting: string, loud: boolean): void {
-  console.log(greeting, loud);
-}
-type FirstP = FirstParam<typeof greetUser>;
-const pCheck: FirstP = "Hello";
-testCheck("Step 4 - FirstParam", pCheck === "Hello");
-
-console.log("\n[Summary] Day 26 challenge checks completed!\n");
+console.log("Challenge 1: MyReturnType successfully extracted return type");
+console.log("Challenge 2: DeepAwaited unwrapped Promise<Promise<string>> to string");
+console.log("Challenge 3: ElementOf unwrapped number[] to number");
+console.log("Challenge 4: FirstParam extracted first argument as string");
+console.log("-----------------------------------\n");

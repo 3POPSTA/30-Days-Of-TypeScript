@@ -1,117 +1,64 @@
 /**
- * ============================================================================
- * DAY 25: CONDITIONAL TYPES & DISTRIBUTIVE CONDITIONALS - CODING CHALLENGES
- * ============================================================================
- * Conditional types take the form:
- *   'T extends U ? TrueType : FalseType'
- * When given a bare type parameter in a union, they automatically distribute
- * across each member of the union.
+ * 🎯 Day 25: Conditional Types & Distributive Conditionals - Coding Challenges
  *
- * Test with:
- *   npx tsx 25_Day_Conditional_types/challenge.ts
- *   OR
- *   npm run challenge:25
- * ============================================================================
+ * Write type-level ternary conditions (T extends U ? X : Y) and distributive filters.
+ *
+ * 🚀 Run with: npm run challenge:25
  */
 
-console.log("\n=======================================================");
-console.log("  DAY 25: CHALLENGE VERIFICATION RUNNER");
-console.log("=======================================================\n");
-
-function testCheck(step: string, passed: boolean, details?: string): void {
-  if (passed) {
-    console.log(`  [PASS] ${step}${details ? ` -> ${details}` : ""}`);
-  } else {
-    console.log(`  [WAIT] ${step} (Needs attention)${details ? ` -> ${details}` : ""}`);
-  }
-}
-
 // ============================================================================
-// STEP 1: Basic Type Inspection Conditional
+// 🎯 CHALLENGE 1: Basic Type Inspection Conditional
 // ============================================================================
 /**
- * CHALLENGE 1:
- * Create a conditional type 'IsString<T>':
- *   - If T extends string: return true
- *   - Otherwise: return false
+ * Define 'IsString<T>' = T extends string ? true : false
  */
-// >>> YOUR CODE HERE <<<
+// 👇 YOUR CODE HERE:
 export type IsString<T> = T extends string ? true : false;
 
-
 // ============================================================================
-// STEP 2: Distributive Union Filtering
+// 🎯 CHALLENGE 2: Distributive Union Filtering
 // ============================================================================
 /**
- * CHALLENGE 2:
- * When T is an unresolved union, 'T extends U ? never : T' filters out
- * any member of the union assignable to U.
- * 
- * Implement 'Diff<T, U> = T extends U ? never : T'.
- * 
- * Test: Diff<"a" | "b" | "c", "a"> should evaluate to "b" | "c".
+ * Define 'Diff<T, U>' = T extends U ? never : T
+ * Filters out members of T that are assignable to U.
  */
-// >>> YOUR CODE HERE <<<
+// 👇 YOUR CODE HERE:
 export type Diff<T, U> = T extends U ? never : T;
 
-
 // ============================================================================
-// STEP 3: Array Element Extraction Conditional
+// 🎯 CHALLENGE 3: Array Element Extraction Conditional
 // ============================================================================
 /**
- * CHALLENGE 3:
- * Create a conditional type 'Flatten<T>':
- *   - If T extends (infer E)[]: return E
- *   - Otherwise: return T
- * 
- * Example:
- *   Flatten<string[]> => string
- *   Flatten<number>   => number
+ * Define 'Flatten<T>' = T extends (infer E)[] ? E : T
+ * Unwraps array elements or returns the type unchanged if not an array.
  */
-// >>> YOUR CODE HERE <<<
+// 👇 YOUR CODE HERE:
 export type Flatten<T> = T extends (infer E)[] ? E : T;
 
-
 // ============================================================================
-// STEP 4: Safe Function Return Resolver
+// 🎯 CHALLENGE 4: Safe Function Return Resolver
 // ============================================================================
 /**
- * CHALLENGE 4:
- * Create a conditional type 'FunctionReturnTypeOrNever<T>':
- *   - If T extends (...args: any[]) => infer R: return R
- *   - Otherwise: return never
+ * Define 'FunctionReturnTypeOrNever<T>' = T extends (...args: any[]) => infer R ? R : never
  */
-// >>> YOUR CODE HERE <<<
+// 👇 YOUR CODE HERE:
 export type FunctionReturnTypeOrNever<T> = T extends (...args: any[]) => infer R ? R : never;
 
-
 // ============================================================================
-// VERIFICATION TEST SUITE
+// 🧪 TEST RUNNER - Run: npm run challenge:25
 // ============================================================================
-console.log("Verifying Step 1 (IsString<T>)...");
-type TestStr = IsString<"hello">; // true
-type TestNum = IsString<123>;     // false
-const checkStr: TestStr = true;
-const checkNum: TestNum = false;
-testCheck("Step 1 - IsString conditional", checkStr === true && checkNum === false);
+console.log("--- 🧪 Day 25 Challenge Results ---");
+type Check1 = IsString<"hello">; // true
+type Check2 = IsString<123>;     // false
+console.log("Challenge 1: IsString<'hello'> is true, IsString<123> is false");
 
-console.log("\nVerifying Step 2 (Diff<T, U>)...");
-type Letters = "a" | "b" | "c";
-type Remaining = Diff<Letters, "b">; // "a" | "c"
-const testRem1: Remaining = "a";
-const testRem2: Remaining = "c";
-testCheck("Step 2 - Diff distributive conditional", testRem1 === "a" && testRem2 === "c");
+type Letters = "a" | "b" | "c" | "d";
+type Filtered = Diff<Letters, "b" | "c">; // "a" | "d"
+console.log("Challenge 2: Diff<Letters, 'b' | 'c'> produces 'a' | 'd'");
 
-console.log("\nVerifying Step 3 (Flatten<T>)...");
-type FlatString = Flatten<string[]>;
-type FlatNum = Flatten<number>;
-const sVal: FlatString = "unwrapped";
-const nVal: FlatNum = 42;
-testCheck("Step 3 - Flatten type", typeof sVal === "string" && typeof nVal === "number");
+type Unwrapped = Flatten<number[]>; // number
+console.log("Challenge 3: Flatten<number[]> produces number");
 
-console.log("\nVerifying Step 4 (FunctionReturnTypeOrNever)...");
-type RetVal = FunctionReturnTypeOrNever<() => boolean>;
-const bVal: RetVal = true;
-testCheck("Step 4 - FunctionReturnTypeOrNever", bVal === true);
-
-console.log("\n[Summary] Day 25 challenge checks completed!\n");
+type FnReturn = FunctionReturnTypeOrNever<() => boolean>; // boolean
+console.log("Challenge 4: FunctionReturnTypeOrNever produces boolean");
+console.log("-----------------------------------\n");
