@@ -133,7 +133,7 @@ npm run typecheck
 ## Repository Structure
 
 ```text
-Typescript-Tutor/
+30-Days-Of-TypeScript/
 ├── 01_Day_Introduction/           # Day 1: Guide, lesson.ts, challenge.ts
 ├── 02_Day_Primitive_types/        # Day 2: Guide, lesson.ts, challenge.ts
 ...
