@@ -18,11 +18,14 @@
 
 ---
 
+> [!TIP]
+> 📖 **Reading in VS Code?** Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> (or <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> on macOS) to open the rendered Markdown Preview for the best reading experience with formatted code blocks, comparison tables, and navigation links.
+
 ## 🎯 How It Works: The 4-Pillar Daily Learning Experience
 
 Each day in this curriculum is structured for rapid, engaging, and practical learning:
 
-1. **📖 In-Depth Guide (`README.md` / `0X_day_*.md`)**: Comprehensive explanations, syntax deep-dives, visual tables, and real-world production use cases.
+1. **📖 In-Depth Guide (`README.md` / `0X_day_*.md`)**: Comprehensive explanations, syntax deep-dives, visual tables, and real-world production use cases *(Tip: Press `Ctrl + Shift + V` in VS Code to preview)*.
 2. **💻 Runnable Lesson (`lesson.ts`)**: Executable code demonstrations showing concepts live with terminal output.
 3. **🎯 Interactive Coding Challenge (`challenge.ts`)**: Bite-sized, interactive coding tasks designed for hands-on practice. No distracting boilerplate, no spoilers—just clear requirements, helpful hints, and starter templates.
 4. **📘 Official Solutions & Explanations (`solutions.md`)**: Full annotated solutions for every challenge, explaining *how* and *why* they work along with Pro-Tips and common gotchas.
@@ -87,9 +90,10 @@ Each day in this curriculum is structured for rapid, engaging, and practical lea
 
 ## ⚡ Quick Start
 
-### 1. Requirements
+### 1. Requirements & Editor Tip
 - Node.js (v18 or higher)
 - npm
+- **VS Code (Recommended)**: Use `Ctrl + Shift + V` (or `Cmd + Shift + V` on Mac) to preview any `.md` guide in rendered Markdown mode.
 
 ### 2. Setup
 ```bash
