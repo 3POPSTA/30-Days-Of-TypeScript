@@ -51,7 +51,7 @@ export function compactList<T>(items: (T | null | undefined)[]): T[] {
 }
 ```
 
-### 💡 Why This Works & Scrimba Pro-Tip
+### 💡 Why This Works & Pro-Tip
 - In standard TypeScript, `array.filter(Boolean)` does not narrow `(T | null)[]` to `T[]`. Passing a type predicate function into `.filter()` successfully narrows the return type to `T[]`!
 
 ---

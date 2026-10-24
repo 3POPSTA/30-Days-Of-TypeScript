@@ -85,7 +85,7 @@ export function isSupportedLocale(locale: string): locale is SupportedLocale {
 }
 ```
 
-### 💡 Why This Works & Scrimba Pro-Tip
+### 💡 Why This Works & Pro-Tip
 - `as const` turns an array into a `readonly` tuple of exact string literal types.
 - `(typeof SUPPORTED_LOCALES)[number]` indexes into the tuple, extracting the union: `"en-US" | "es-ES" | "fr-FR" | "de-DE"`!
 

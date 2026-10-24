@@ -29,7 +29,7 @@ export function buildEnvironment(): AppEnvironment {
 }
 ```
 
-### 💡 Why This Works & Scrimba Pro-Tip
+### 💡 Why This Works & Pro-Tip
 - Declaration merging is how `@types/node` or `window` extensions work. Types cannot be merged (duplicate type identifiers error out), making interfaces the right choice for public library API contracts.
 
 ---

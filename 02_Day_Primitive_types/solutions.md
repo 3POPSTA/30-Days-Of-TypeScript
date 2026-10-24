@@ -39,7 +39,7 @@ export function multiplyBigInt(a: bigint, b: bigint): bigint {
 }
 ```
 
-### 💡 Why This Works & Scrimba Pro-Tip
+### 💡 Why This Works & Pro-Tip
 - In TypeScript, you cannot mix `number` and `bigint` in arithmetic operations (e.g., `5n + 10` causes a compiler error). Both operands must be `bigint`.
 
 ---

@@ -87,7 +87,7 @@ export function addUSD(a: USD, b: USD): USD {
 }
 ```
 
-### 💡 Why This Works & Scrimba Pro-Tip
+### 💡 Why This Works & Pro-Tip
 - Branded types prevent catastrophic bugs like mixing up `EUR` and `USD` or `Kilometers` and `Miles`. Even though both are numbers at runtime, TypeScript refuses to mix them!
 
 ---

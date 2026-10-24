@@ -23,7 +23,7 @@
  * 2. 'totalDays': number with value 30
  * 3. 'isEnrolled': boolean with value true
  *
- * 💡 Scrimba Tip: In TypeScript, adding `: type` after the variable name
+ * 💡 Pro Tip: In TypeScript, adding `: type` after the variable name
  * explicitly locks down its type.
  */
 // 👇 YOUR CODE HERE:

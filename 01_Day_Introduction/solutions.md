@@ -23,7 +23,7 @@ export const isEnrolled: boolean = true;
 - Adding `: string`, `: number`, and `: boolean` explicitly tells the TypeScript compiler what type each variable must hold.
 - While TypeScript can infer these types from literals, explicit annotations document intent and prevent unintended reassignment.
 
-### 🌟 Scrimba Pro-Tip
+### 🌟 Pro-Tip
 Hover over any variable in VS Code or your IDE. Even without explicit annotations, TypeScript shows its inferred type. Using explicit annotations is best practice for module exports and API contracts.
 
 ---

@@ -7,7 +7,7 @@
   [![Node.js](https://img.shields.io/badge/Node.js-18%2B-green.svg?style=flat-square&logo=node.js)](https://nodejs.org/)
   [![Strict Mode](https://img.shields.io/badge/Strict_Mode-Enabled-brightgreen.svg?style=flat-square)](tsconfig.json)
   [![Lessons](https://img.shields.io/badge/Lessons-30%2F30_Passing-brightgreen.svg?style=flat-square)](src/index.ts)
-  [![Challenges](https://img.shields.io/badge/Challenges-Scrimba--Style_Interactive-blue.svg?style=flat-square)](src/index.ts)
+  [![Challenges](https://img.shields.io/badge/Challenges-Interactive_Practice-blue.svg?style=flat-square)](src/index.ts)
   [![Solutions](https://img.shields.io/badge/Solutions-30%2F30_Available-brightgreen.svg?style=flat-square)](.)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
@@ -24,8 +24,8 @@ Each day in this curriculum is structured for rapid, engaging, and practical lea
 
 1. **📖 In-Depth Guide (`README.md` / `0X_day_*.md`)**: Comprehensive explanations, syntax deep-dives, visual tables, and real-world production use cases.
 2. **💻 Runnable Lesson (`lesson.ts`)**: Executable code demonstrations showing concepts live with terminal output.
-3. **🎯 Scrimba-Style Coding Challenge (`challenge.ts`)**: Bite-sized, interactive coding tasks designed for hands-on practice. No distracting boilerplate, no spoilers—just clear requirements, helpful hints, and starter templates.
-4. **📘 Official Solutions & Explanations (`solutions.md`)**: Full annotated solutions for every challenge, explaining *how* and *why* they work along with Scrimba Pro-Tips and common gotchas.
+3. **🎯 Interactive Coding Challenge (`challenge.ts`)**: Bite-sized, interactive coding tasks designed for hands-on practice. No distracting boilerplate, no spoilers—just clear requirements, helpful hints, and starter templates.
+4. **📘 Official Solutions & Explanations (`solutions.md`)**: Full annotated solutions for every challenge, explaining *how* and *why* they work along with Pro-Tips and common gotchas.
 
 ---
 
@@ -123,7 +123,7 @@ npm run challenge:30
 npx tsx 01_Day_Introduction/challenge.ts
 ```
 
-💡 *Need help or want to compare your answer? Check out `<Day_Folder>/solutions.md` for complete solutions and Scrimba pro-tips!*
+💡 *Need help or want to compare your answer? Check out `<Day_Folder>/solutions.md` for complete solutions and pro-tips!*
 
 ### 6. Automated Testing & Verification
 ```bash

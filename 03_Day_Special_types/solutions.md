@@ -74,7 +74,7 @@ export function getLightInstruction(light: TrafficLight): string {
 }
 ```
 
-### 💡 Why This Works & Scrimba Pro-Tip
+### 💡 Why This Works & Pro-Tip
 - If someone adds `"blue"` to `TrafficLight` in the future, TypeScript will immediately flag an error in `assertNever(light)` because `light` is no longer `never` in the default branch!
 
 ---
